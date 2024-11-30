@@ -12,6 +12,12 @@ name = Weight;
 tag = wght;
 }
 );
+customParameters = (
+{
+name = "Name Table Entry";
+value = "13; This Font Software is licensed under the SIL Open Font License, Version 1.1. https://openfontlicense.org";
+}
+);
 date = "2024-11-30 19:49:06 +0000";
 familyName = "Epunda Sans";
 featurePrefixes = (
