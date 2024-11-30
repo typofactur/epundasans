@@ -39667,6 +39667,12 @@ type = descender;
 type = "italic angle";
 }
 );
+properties = (
+{
+key = vendorID;
+value = TYFA;
+}
+);
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
