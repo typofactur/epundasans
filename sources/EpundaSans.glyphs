@@ -11,7 +11,8 @@ DisplayStrings = (
 "›",
 "！",
 "¢",
-$
+$,
+"ø"
 );
 axes = (
 {
@@ -23,6 +24,12 @@ customParameters = (
 {
 name = "Name Table Entry";
 value = "13; This Font Software is licensed under the SIL Open Font License, Version 1.1. https://openfontlicense.org";
+},
+{
+name = fsType;
+value = (
+3
+);
 }
 );
 date = "2024-11-30 19:49:06 +0000";
