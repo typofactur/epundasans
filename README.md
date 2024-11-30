@@ -18,7 +18,6 @@ Epunda Sans is a simple sans serif font. Its characteristic features are its sla
 Epundas Sans is a variable font with a weight axis that ranges from Light (300) to Black (900).
 
 ![Sample Image](documentation/image1.png)
-![Sample Image](documentation/image2.png)
 
 ## About
 
