@@ -416,6 +416,14 @@ value = 265;
 {
 name = typoLineGap;
 value = 0;
+},
+{
+name = typoAscender;
+value = 1000;
+},
+{
+name = hheaAscender;
+value = 1000;
 }
 );
 iconName = Light;
