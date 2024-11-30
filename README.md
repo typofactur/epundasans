@@ -15,13 +15,14 @@
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgooglefonts%2Fgooglefonts-project-template%2Fgh-pages%2Fbadges%2FUniversal.json
 
 Epunda Sans is a simple sans serif font. Its characteristic features are its slanted indentations. It is an unadorned but friendly font that remains easy to read even at small font sizes and on screens thanks to its high x-height and large interior spaces.
+Epundas Sans is a variable font with a weight axis that ranges from Light (300) to Black (900).
 
-# ![Sample Image](documentation/image1.png)
-# ![Sample Image](documentation/image2.png)
+![Sample Image](documentation/image1.png)
+![Sample Image](documentation/image2.png)
 
 ## About
 
-typofactur is a German foundry run by the graphic designer Simon Atzbach
+typofactur is a German foundry run by the graphic designer Simon Atzbach.
 
 ## Building
 
