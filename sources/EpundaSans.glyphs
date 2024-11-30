@@ -408,6 +408,10 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = e;
+},
+{
+name = winDescent;
+value = 265;
 }
 );
 iconName = Light;
