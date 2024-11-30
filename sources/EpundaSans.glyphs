@@ -8,7 +8,9 @@ DisplayStrings = (
 "«",
 "»",
 "‹",
-"›"
+"›",
+"！",
+"¢"
 );
 axes = (
 {
@@ -34107,7 +34109,7 @@ unicode = 165;
 {
 export = 0;
 glyphname = cent;
-lastChange = "2024-11-30 21:27:13 +0000";
+lastChange = "2024-11-30 23:36:41 +0000";
 layers = (
 {
 layerId = m01;
@@ -34128,72 +34130,9 @@ nodes = (
 width = 433;
 },
 {
-associatedMasterId = m01;
 attr = {
 axisRules = (
 {
-min = 501;
-}
-);
-};
-layerId = "E0899BEC-FBC1-46CF-9CA4-3914F9F0FEE1";
-name = "26. Okt. 22, 18:32";
-shapes = (
-{
-ref = c;
-},
-{
-closed = 1;
-nodes = (
-(275,471,l),
-(275,575,l),
-(220,575,l),
-(220,471,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(220,25,l),
-(220,-75,l),
-(275,-75,l),
-(275,25,l)
-);
-}
-);
-width = 433;
-},
-{
-associatedMasterId = m002;
-attr = {
-axisRules = (
-{
-}
-);
-};
-layerId = "1C047019-30E2-482B-AC41-71AD7539171C";
-name = "26. Okt. 22, 18:34";
-shapes = (
-{
-ref = c;
-},
-{
-closed = 1;
-nodes = (
-(199,-75,l),
-(319,-75,l),
-(319,575,l),
-(199,575,l)
-);
-}
-);
-width = 463;
-},
-{
-attr = {
-axisRules = (
-{
-min = 501;
 }
 );
 };
@@ -34206,19 +34145,10 @@ ref = c;
 {
 closed = 1;
 nodes = (
-(319,446,l),
-(319,575,l),
-(199,575,l),
-(199,446,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(199,55,l),
-(199,-75,l),
-(319,-75,l),
-(319,55,l)
+(232,-75,l),
+(287,-75,l),
+(287,575,l),
+(232,575,l)
 );
 }
 );
