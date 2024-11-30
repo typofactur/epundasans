@@ -412,6 +412,10 @@ value = e;
 {
 name = winDescent;
 value = 265;
+},
+{
+name = typoLineGap;
+value = 0;
 }
 );
 iconName = Light;
