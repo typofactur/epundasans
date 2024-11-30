@@ -38987,6 +38987,17 @@ name = Regular;
 },
 {
 axesValues = (
+500
+);
+instanceInterpolations = {
+m002 = 0.33333;
+m01 = 0.66667;
+};
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
 600
 );
 instanceInterpolations = {
@@ -39011,74 +39022,22 @@ weightClass = 700;
 },
 {
 axesValues = (
+800
+);
+instanceInterpolations = {
+m002 = 0.83333;
+m01 = 0.16667;
+};
+name = ExtraBold;
+},
+{
+axesValues = (
 900
 );
 instanceInterpolations = {
 m002 = 1;
 };
 name = Black;
-weightClass = 900;
-},
-{
-axesValues = (
-300
-);
-instanceInterpolations = {
-m01 = 1;
-};
-isItalic = 1;
-linkStyle = Light;
-name = "Light Italic";
-weightClass = 300;
-},
-{
-axesValues = (
-400
-);
-instanceInterpolations = {
-m002 = 0.16667;
-m01 = 0.83333;
-};
-isItalic = 1;
-linkStyle = Regular;
-name = "Regular Italic";
-},
-{
-axesValues = (
-600
-);
-instanceInterpolations = {
-m002 = 0.5;
-m01 = 0.5;
-};
-isItalic = 1;
-linkStyle = SemiBold;
-name = "SemiBold Italic";
-weightClass = 600;
-},
-{
-axesValues = (
-700
-);
-instanceInterpolations = {
-m002 = 0.66667;
-m01 = 0.33333;
-};
-isItalic = 1;
-linkStyle = Bold;
-name = "Bold Italic";
-weightClass = 700;
-},
-{
-axesValues = (
-900
-);
-instanceInterpolations = {
-m002 = 1;
-};
-isItalic = 1;
-linkStyle = Black;
-name = "Black Italic";
 weightClass = 900;
 }
 );
@@ -39245,5 +39204,5 @@ tH = "55";
 };
 };
 versionMajor = 2;
-versionMinor = 1;
+versionMinor = 2;
 }
