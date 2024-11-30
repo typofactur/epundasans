@@ -2,7 +2,9 @@
 .appVersion = "3260";
 .formatVersion = 3;
 DisplayStrings = (
-$
+"Ľ",
+"ď",
+"ť"
 );
 axes = (
 {
@@ -4331,7 +4333,7 @@ unicode = 313;
 },
 {
 glyphname = Lcaron;
-lastChange = "2022-10-23 21:51:10 +0000";
+lastChange = "2024-11-30 22:23:07 +0000";
 layers = (
 {
 layerId = m01;
@@ -4340,8 +4342,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (19,137);
-ref = caroncomb;
+pos = (145,0);
+ref = caroncomb.alt;
 }
 );
 width = 447;
@@ -4353,8 +4355,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (33,157);
-ref = caroncomb;
+pos = (233,0);
+ref = caroncomb.alt;
 }
 );
 width = 475;
@@ -11119,7 +11121,7 @@ unicode = 100;
 },
 {
 glyphname = dcaron;
-lastChange = "2022-10-21 18:08:26 +0000";
+lastChange = "2024-11-30 22:24:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -14761,7 +14763,7 @@ unicode = 314;
 },
 {
 glyphname = lcaron;
-lastChange = "2022-11-25 16:54:10 +0000";
+lastChange = "2024-11-30 22:21:37 +0000";
 layers = (
 {
 layerId = m01;
@@ -14770,8 +14772,8 @@ shapes = (
 ref = l;
 },
 {
-pos = (-100,200);
-ref = caroncomb;
+pos = (130,0);
+ref = caroncomb.alt;
 }
 );
 width = 230;
@@ -14783,8 +14785,8 @@ shapes = (
 ref = l;
 },
 {
-pos = (-90,200);
-ref = caroncomb;
+pos = (210,0);
+ref = caroncomb.alt;
 }
 );
 width = 275;
@@ -18013,7 +18015,7 @@ unicode = 359;
 },
 {
 glyphname = tcaron;
-lastChange = "2022-10-22 16:34:18 +0000";
+lastChange = "2024-11-30 22:28:17 +0000";
 layers = (
 {
 layerId = m01;
@@ -18022,8 +18024,8 @@ shapes = (
 ref = t;
 },
 {
-pos = (-73,90);
-ref = caroncomb;
+pos = (245,0);
+ref = caroncomb.alt;
 }
 );
 width = 319;
@@ -18035,8 +18037,8 @@ shapes = (
 ref = t;
 },
 {
-pos = (-38,100);
-ref = caroncomb;
+pos = (330,0);
+ref = caroncomb.alt;
 }
 );
 width = 350;
@@ -37237,7 +37239,7 @@ unicode = 779;
 },
 {
 glyphname = caroncomb.alt;
-lastChange = "2022-10-23 19:04:35 +0000";
+lastChange = "2024-11-30 22:25:39 +0000";
 layers = (
 {
 layerId = m01;
@@ -37245,26 +37247,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(60,522,ls),
-(58,509,o),
-(65,500,o),
-(78,500,cs),
-(78,500,ls),
-(90,500,o),
-(98,506,o),
-(101,517,cs),
-(143,678,ls),
-(147,691,o),
-(140,700,o),
-(126,700,cs),
-(107,700,ls),
-(95,700,o),
-(88,695,o),
-(86,682,cs)
+(70,500,l),
+(110,500,l),
+(120,700,l),
+(60,700,l)
 );
 }
 );
-width = 204;
+width = 180;
 },
 {
 layerId = m002;
@@ -37272,26 +37262,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(25,522,ls),
-(23,509,o),
-(30,500,o),
-(43,500,cs),
-(163,500,ls),
-(175,500,o),
-(183,506,o),
-(186,517,cs),
-(228,678,ls),
-(232,691,o),
-(225,700,o),
-(211,700,cs),
-(72,700,ls),
-(60,700,o),
-(53,695,o),
-(51,682,cs)
+(45,440,l),
+(145,440,l),
+(165,700,l),
+(25,700,l)
 );
 }
 );
-width = 254;
+width = 190;
 }
 );
 metricLeft = "=i";
