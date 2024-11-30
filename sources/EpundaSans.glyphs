@@ -2,7 +2,9 @@
 .appVersion = "3260";
 .formatVersion = 3;
 DisplayStrings = (
-"̄Ǟ"
+"̄Ǟ",
+" ",
+"/nbspace"
 );
 axes = (
 {
@@ -27169,10 +27171,11 @@ unicode = 32;
 },
 {
 glyphname = nbspace;
+lastChange = "2024-11-30 22:45:34 +0000";
 layers = (
 {
 layerId = m01;
-width = 200;
+width = 250;
 },
 {
 layerId = m002;
