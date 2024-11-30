@@ -2,9 +2,7 @@
 .appVersion = "3260";
 .formatVersion = 3;
 DisplayStrings = (
-"Ľ",
-"ď",
-"ť"
+"̄Ǟ"
 );
 axes = (
 {
@@ -785,6 +783,78 @@ width = 580;
 }
 );
 unicode = 196;
+},
+{
+glyphname = Adieresismacron;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (89,137);
+ref = dieresiscomb;
+},
+{
+pos = (22,345);
+ref = macroncomb;
+}
+);
+width = 538;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (60,157);
+ref = dieresiscomb;
+},
+{
+pos = (43,387);
+ref = macroncomb;
+}
+);
+width = 580;
+}
+);
+unicode = 478;
+},
+{
+glyphname = Adotbelow;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (164,0);
+ref = dotbelowcomb;
+}
+);
+width = 538;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (165,0);
+ref = dotbelowcomb;
+}
+);
+width = 580;
+}
+);
+unicode = 7840;
 },
 {
 glyphname = Agrave;
