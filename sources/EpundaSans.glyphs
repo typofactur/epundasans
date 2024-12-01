@@ -2,7 +2,9 @@
 .appVersion = "3260";
 .formatVersion = 3;
 DisplayStrings = (
-"◌"
+"◌",
+"̨",
+"̵"
 );
 axes = (
 {
@@ -974,7 +976,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (357,10);
+pos = (297,-6);
 ref = ogonekcomb;
 }
 );
@@ -2390,7 +2392,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (310,10);
+pos = (250,-6);
 ref = ogonekcomb;
 }
 );
@@ -3929,7 +3931,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (62,0);
+pos = (2,-16);
 ref = ogonekcomb;
 }
 );
@@ -38769,7 +38771,7 @@ unicode = 807;
 },
 {
 glyphname = ogonekcomb;
-lastChange = "2022-10-23 18:11:18 +0000";
+lastChange = "2024-12-01 00:34:29 +0000";
 layers = (
 {
 anchors = (
@@ -38812,7 +38814,7 @@ width = 260;
 anchors = (
 {
 name = _ogonek;
-pos = (165,0);
+pos = (225,16);
 }
 );
 layerId = m002;
@@ -38987,7 +38989,7 @@ unicode = 817;
 },
 {
 glyphname = strokeshortcomb;
-lastChange = "2022-10-23 20:21:46 +0000";
+lastChange = "2024-12-01 00:35:14 +0000";
 layers = (
 {
 anchors = (
