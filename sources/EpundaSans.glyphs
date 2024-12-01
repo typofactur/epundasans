@@ -24,7 +24,6 @@ value = "13; This Font Software is licensed under the SIL Open Font License, Ver
 {
 name = fsType;
 value = (
-3
 );
 },
 {
@@ -967,7 +966,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (349,0);
+pos = (323,-16);
 ref = ogonekcomb;
 }
 );
@@ -2383,7 +2382,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (287,0);
+pos = (261,-16);
 ref = ogonekcomb;
 }
 );
@@ -3922,7 +3921,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (-29,0);
+pos = (-55,-16);
 ref = ogonekcomb;
 }
 );
@@ -7740,7 +7739,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (135,-8);
+pos = (109,-24);
 ref = ogonekcomb;
 }
 );
@@ -10196,7 +10195,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (243,0);
+pos = (217,-16);
 ref = ogonekcomb;
 }
 );
@@ -12325,7 +12324,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (73,-8);
+pos = (47,-24);
 ref = ogonekcomb;
 }
 );
@@ -14216,7 +14215,7 @@ ref = idotless;
 ref = dotaccentcomb;
 },
 {
-pos = (-39,0);
+pos = (-65,-16);
 ref = ogonekcomb;
 }
 );
@@ -18824,7 +18823,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (266,0);
+pos = (240,-16);
 ref = ogonekcomb;
 }
 );
