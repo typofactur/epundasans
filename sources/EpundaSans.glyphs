@@ -39518,6 +39518,7 @@ m002 = 0.83333;
 m01 = 0.16667;
 };
 name = ExtraBold;
+weightClass = 800;
 },
 {
 axesValues = (
