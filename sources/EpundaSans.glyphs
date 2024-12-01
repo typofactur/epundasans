@@ -13,7 +13,12 @@ DisplayStrings = (
 "À",
 "ḡ",
 "Á",
-"ỹ"
+"ỹ",
+"Å",
+"Ẳ",
+"/g.salt",
+"ý",
+"/ncommaaccent.loclMAH"
 );
 axes = (
 {
@@ -436,32 +441,36 @@ name = "Master Icon Glyph Name";
 value = e;
 },
 {
-name = winAscent;
-value = 900;
+name = typoAscender;
+value = 1015;
 },
 {
-name = winDescent;
-value = 300;
+name = typoDescender;
+value = -315;
 },
 {
 name = typoLineGap;
 value = 0;
 },
 {
-name = typoAscender;
-value = 900;
-},
-{
-name = typoDescender;
-value = -300;
-},
-{
 name = hheaAscender;
-value = 900;
+value = 1015;
 },
 {
 name = hheaDescender;
-value = -300;
+value = -315;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1057;
+},
+{
+name = winDescent;
+value = 430;
 }
 );
 iconName = Light;
