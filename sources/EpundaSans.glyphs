@@ -7749,7 +7749,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (391,10);
+pos = (331,-6);
 ref = ogonekcomb;
 }
 );
@@ -10205,7 +10205,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (289,10);
+pos = (229,-6);
 ref = ogonekcomb;
 }
 );
@@ -12334,7 +12334,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (272,10);
+pos = (212,-6);
 ref = ogonekcomb;
 }
 );
@@ -14228,7 +14228,7 @@ ref = idotless;
 ref = dotaccentcomb;
 },
 {
-pos = (60,10);
+pos = (0,-6);
 ref = ogonekcomb;
 }
 );
@@ -18833,7 +18833,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (299,10);
+pos = (239,-6);
 ref = ogonekcomb;
 }
 );
@@ -36870,12 +36870,20 @@ unicode = 8597;
 },
 {
 glyphname = dottedCircle;
-lastChange = "2024-12-01 00:29:33 +0000";
+lastChange = "2024-12-01 00:57:27 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
+},
+{
+name = center;
+pos = (300,250);
+},
+{
+name = ogonek;
+pos = (545,16);
 },
 {
 name = top;
@@ -37124,6 +37132,14 @@ width = 600;
 anchors = (
 {
 name = bottom;
+},
+{
+name = center;
+pos = (300,250);
+},
+{
+name = ogonek;
+pos = (545,16);
 },
 {
 name = top;
@@ -38771,13 +38787,13 @@ unicode = 807;
 },
 {
 glyphname = ogonekcomb;
-lastChange = "2024-12-01 00:34:29 +0000";
+lastChange = "2024-12-01 00:40:23 +0000";
 layers = (
 {
 anchors = (
 {
 name = _ogonek;
-pos = (174,0);
+pos = (200,16);
 }
 );
 layerId = m01;
@@ -38989,7 +39005,7 @@ unicode = 817;
 },
 {
 glyphname = strokeshortcomb;
-lastChange = "2024-12-01 00:35:14 +0000";
+lastChange = "2024-12-01 00:54:35 +0000";
 layers = (
 {
 anchors = (
