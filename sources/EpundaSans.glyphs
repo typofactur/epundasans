@@ -1,19 +1,6 @@
 {
 .appVersion = "3260";
 .formatVersion = 3;
-DisplayStrings = (
-"[",
-"]",
-"!",
-"«",
-"»",
-"‹",
-"›",
-"！",
-"¢",
-$,
-"ø"
-);
 axes = (
 {
 name = Weight;
@@ -430,6 +417,10 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = e;
+},
+{
+name = winAscent;
+value = 1003;
 },
 {
 name = winDescent;
@@ -33063,6 +33054,56 @@ width = 400;
 unicode = 8225;
 },
 {
+glyphname = cent;
+lastChange = "2024-12-01 00:21:36 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = c;
+},
+{
+closed = 1;
+nodes = (
+(220,-75,l),
+(275,-75,l),
+(275,575,l),
+(220,575,l)
+);
+}
+);
+width = 433;
+},
+{
+attr = {
+axisRules = (
+{
+}
+);
+};
+layerId = m002;
+name = Black;
+shapes = (
+{
+ref = c;
+},
+{
+closed = 1;
+nodes = (
+(232,-75,l),
+(287,-75,l),
+(287,575,l),
+(232,575,l)
+);
+}
+);
+width = 463;
+}
+);
+unicode = 162;
+},
+{
 glyphname = currency;
 lastChange = "2022-10-26 18:49:45 +0000";
 layers = (
@@ -34113,57 +34154,6 @@ width = 588;
 }
 );
 unicode = 165;
-},
-{
-export = 0;
-glyphname = cent;
-lastChange = "2024-11-30 23:36:41 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = c;
-},
-{
-closed = 1;
-nodes = (
-(220,-75,l),
-(275,-75,l),
-(275,575,l),
-(220,575,l)
-);
-}
-);
-width = 433;
-},
-{
-attr = {
-axisRules = (
-{
-}
-);
-};
-layerId = m002;
-name = Black;
-shapes = (
-{
-ref = c;
-},
-{
-closed = 1;
-nodes = (
-(232,-75,l),
-(287,-75,l),
-(287,575,l),
-(232,575,l)
-);
-}
-);
-width = 463;
-}
-);
-unicode = 162;
 },
 {
 glyphname = plus;
