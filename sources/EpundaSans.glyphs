@@ -8,7 +8,12 @@ DisplayStrings = (
 "[",
 "]",
 "!",
-"¡"
+"¡",
+"Ắ",
+"À",
+"ḡ",
+"Á",
+"ỹ"
 );
 axes = (
 {
@@ -19,7 +24,7 @@ tag = wght;
 customParameters = (
 {
 name = "Name Table Entry";
-value = "13; This Font Software is licensed under the SIL Open Font License, Version 1.1. https://openfontlicense.org";
+value = "13; This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 },
 {
 name = fsType;
@@ -432,11 +437,11 @@ value = e;
 },
 {
 name = winAscent;
-value = 1003;
+value = 900;
 },
 {
 name = winDescent;
-value = 265;
+value = 300;
 },
 {
 name = typoLineGap;
@@ -444,11 +449,19 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1000;
+value = 900;
+},
+{
+name = typoDescender;
+value = -300;
 },
 {
 name = hheaAscender;
-value = 1000;
+value = 900;
+},
+{
+name = hheaDescender;
+value = -300;
 }
 );
 iconName = Light;
@@ -9016,6 +9029,64 @@ width = 770;
 );
 metricLeft = "=H";
 metricRight = "=H";
+},
+{
+export = 0;
+glyphname = Abreveacute;
+lastChange = "2024-12-01 16:13:17 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (67,137);
+ref = brevecomb;
+},
+{
+pos = (149,337);
+ref = acutecomb;
+}
+);
+width = 538;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (88,157);
+ref = brevecomb;
+},
+{
+pos = (125,357);
+ref = acutecomb;
+}
+);
+width = 580;
+}
+);
+unicode = 7854;
+},
+{
+export = 0;
+glyphname = Abrevehookabove;
+lastChange = "2024-12-01 16:21:22 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 7858;
 },
 {
 export = 0;
@@ -39704,8 +39775,21 @@ type = "italic angle";
 );
 properties = (
 {
+key = licenses;
+values = (
+{
+language = dflt;
+value = "New Value";
+}
+);
+},
+{
+key = licenseURL;
+value = "New Value";
+},
+{
 key = vendorID;
-value = TYFA;
+value = "https://openfontlicense.org";
 }
 );
 unitsPerEm = 1000;
