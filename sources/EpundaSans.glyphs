@@ -39788,16 +39788,12 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "New Value";
+value = "SIL Open Font License, Version 1.1. ";
 }
 );
 },
 {
 key = licenseURL;
-value = "New Value";
-},
-{
-key = vendorID;
 value = "https://openfontlicense.org";
 }
 );
