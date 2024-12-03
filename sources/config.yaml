@@ -90,8 +90,8 @@ stat:
       value: 0
       linkedValue: 1
       flags: 2
- EpundaSans-Italic[wght].ttf:
-  - name: Weight
+   EpundaSans-Italic[wght].ttf:
+   - name: Weight
     tag: wght
     values:
     - name: Light
