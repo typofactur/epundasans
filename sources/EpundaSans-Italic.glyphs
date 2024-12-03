@@ -487,7 +487,7 @@ pos = -200;
 pos = 12;
 }
 );
-name = "Light Italic";
+name = Italic;
 userData = {
 GSOffsetHorizontal = 5;
 GSOffsetKeepCompatible = 1;
@@ -39095,5 +39095,5 @@ tH = "55";
 };
 };
 versionMajor = 2;
-versionMinor = 101;
+versionMinor = 102;
 }
