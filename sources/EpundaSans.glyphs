@@ -2,16 +2,7 @@
 .appVersion = "3260";
 .formatVersion = 3;
 DisplayStrings = (
-"฿",
-"¢",
-$,
-"ď",
-"ľ",
-"đ",
-"◌",
-a,
-e,
-"/e.salt"
+a
 );
 axes = (
 {
@@ -39366,5 +39357,5 @@ tH = "55";
 };
 };
 versionMajor = 2;
-versionMinor = 102;
+versionMinor = 103;
 }
