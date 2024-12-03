@@ -272,16 +272,16 @@ you're checking.</p>
     <tr>
         <td>0</td>
         <td>0</td>
-        <td>3</td>
-        <td>14</td>
+        <td>1</td>
+        <td>15</td>
         <td>183</td>
         <td>15</td>
-        <td>269</td>
+        <td>270</td>
     </tr>
     <tr>
         <td>0%</td>
         <td>0%</td>
-        <td>1%</td>
+        <td>0%</td>
         <td>3%</td>
         <td>38%</td>
         <td>3%</td>
@@ -313,26 +313,20 @@ immediately.
 <p>FontBakery version: 0.12.10</p>
         
             
-        
-            
-        
-            
-                <h2>Universal Profile Checks</h2>
+                <h2>OpenType Specification Checks</h2>
 <span class='section__emoji'>
-    🔥🔥⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️
+    ⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
 </span>
 
     <h3>
     
-    Check accent of Lcaron, dcaron, lcaron, tcaron
+    Fonts have consistent underline thickness?
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/alt_caron&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/underline_thickness&gt;</div>
 
 
 
 <div style="background-color:#ee8">
-
-    
 
     
 
@@ -341,11 +335,46 @@ immediately.
 
     
 
+
+    <h3>
+    
+    Fonts have consistent PANOSE family type?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/panose_familytype&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Make sure all font files have the same version value.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/equal_font_versions&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
     
         <details>
             <summary>
-                🔥
-                EpundaSans-Italic[wght].ttf
+                ⚠️
+                
+                Family Check
                 
             </summary>
             <div>
@@ -353,14 +382,19 @@ immediately.
                 
                         <li class='details_item'>
                             <span class='details_indicator'>
-                            🔥 FAIL
+                            ⚠️ WARN
                             </span>
 
                             <span class='details_text'>
-                            <p>Lcaron uses component uni030C.</p>
+                            <p>Version info differs among font files of the same font project.
+These were the version values found:</p>
+<ul>
+<li>fonts/variable/EpundaSans[wght].ttf: 2.1020050048828125</li>
+<li>fonts/variable/EpundaSans-Italic[wght].ttf: 2.1009979248046875</li>
+</ul>
 
                             
-                             [code: wrong-mark]
+                             [code: mismatch]
                             
                             </span>
                         </li>
@@ -373,9 +407,63 @@ immediately.
 
     <h3>
     
-    Check that glyph for U+0675 ARABIC LETTER HIGH HAMZA is not a mark.
+    Check that OS/2.fsSelection bold &amp; italic settings are unique for each NameID1
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/arabic_high_hamza&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/family/bold_italic_unique_for_nameid1&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Verify that each group of fonts with the same nameID 1 has maximum of 4 fonts.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/family/max_4_fonts_per_family_name&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Verify that family names in the name table are consistent across all fonts in the family. Checks Typographic Family name (nameID 16) if present, otherwise uses Font Family name (nameID 1)
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/family/consistent_family_name&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    CFF table FontName must match name table ID 6 (PostScript name).
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/name/postscript_vs_cff&gt;</div>
 
 
 
@@ -395,9 +483,9 @@ immediately.
 
     <h3>
     
-    Check that Arabic spacing symbols U+FBB2–FBC1 aren&#39;t classified as marks.
+    Name table ID 6 (PostScript name) must be consistent across platforms.
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/arabic_spacing_symbols&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/name/postscript_name_consistency&gt;</div>
 
 
 
@@ -417,72 +505,9 @@ immediately.
 
     <h3>
     
-    Ensure the font supports case swapping for all its glyphs.
+    Check name table for empty records.
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/case_mapping&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-    
-
-</div>
-
-
-    
-
-    
-        <details>
-            <summary>
-                🔥
-                EpundaSans-Italic[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            🔥 FAIL
-                            </span>
-
-                            <span class='details_text'>
-                            <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+01DF: LATIN SMALL LETTER A WITH DIAERESIS AND MACRON</td>
-<td align="left">U+01DE: LATIN CAPITAL LETTER A WITH DIAERESIS AND MACRON</td>
-</tr>
-</tbody>
-</table>
-
-                            
-                             [code: missing-case-counterparts]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
-    
-
-
-    <h3>
-    
-    Does the font contain chws and vchw features?
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/cjk_chws_feature&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/name/empty_records&gt;</div>
 
 
 
@@ -502,9 +527,9 @@ immediately.
 
     <h3>
     
-    Check if each glyph has the recommended amount of contours.
+    Description strings in the name table must not contain copyright info.
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/no_copyright_on_description&gt;</div>
 
 
 
@@ -524,45 +549,9 @@ immediately.
 
     <h3>
     
-    Checking all files are in the same directory.
+    Does full font name begin with the font family name?
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/single_directory&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-</div>
-
-
-    
-
-
-    <h3>
-    
-    Each font in a family must have the same set of vertical metrics values.
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/vertical_metrics&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-</div>
-
-
-    
-
-
-    <h3>
-    
-    Checking OS/2 usWinAscent &amp; usWinDescent.
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/win_ascent_and_descent&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/match_familyname_fullfont&gt;</div>
 
 
 
@@ -582,9 +571,9 @@ immediately.
 
     <h3>
     
-    Do we have the latest version of FontBakery installed?
+    The variable font &#39;wght&#39; (Weight) axis coordinate must be 400 on the &#39;Regular&#39; instance.
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/fontbakery_version&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/regular_wght_coord&gt;</div>
 
 
 
@@ -604,9 +593,9 @@ immediately.
 
     <h3>
     
-    Ensure that the font can be rasterized by FreeType.
+    The variable font &#39;wdth&#39; (Width) axis coordinate must be 100 on the &#39;Regular&#39; instance.
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/freetype_rasterizer&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/regular_wdth_coord&gt;</div>
 
 
 
@@ -626,9 +615,9 @@ immediately.
 
     <h3>
     
-    Ensure no GPOS7 lookups are present.
+    The variable font &#39;slnt&#39; (Slant) axis coordinate must be zero on the &#39;Regular&#39; instance.
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gpos7&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/regular_slnt_coord&gt;</div>
 
 
 
@@ -648,11 +637,9 @@ immediately.
 
     <h3>
     
-    <div style='color:#88c'>EXPERIMENTAL CHECK - Since 2024/Jun/10</div>
-    
-    Ensure &#39;smcp&#39; (small caps) lookups are defined before ligature lookups in the &#39;GSUB&#39; table.
+    The variable font &#39;ital&#39; (Italic) axis coordinate must be zero on the &#39;Regular&#39; instance.
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gsub/smallcaps_before_ligatures&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/regular_ital_coord&gt;</div>
 
 
 
@@ -672,9 +659,9 @@ immediately.
 
     <h3>
     
-    Detect any interpolation issues in the font.
+    The variable font &#39;opsz&#39; (Optical Size) axis coordinate should be between 10 and 16 on the &#39;Regular&#39; instance.
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/interpolation_issues&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/regular_opsz_coord&gt;</div>
 
 
 
@@ -694,9 +681,9 @@ immediately.
 
     <h3>
     
-    Check that legacy accents aren&#39;t used in composite glyphs.
+    The variable font &#39;slnt&#39; (Slant) axis coordinate specifies positive values in its range?
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/legacy_accents&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/slnt_range&gt;</div>
 
 
 
@@ -716,9 +703,9 @@ immediately.
 
     <h3>
     
-    Checking Vertical Metric Linegaps.
+    The variable font &#39;ital&#39; (Italic) axis coordinates is in a valid range?
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/linegaps&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.typenetwork/check/varfont/ital_range&gt;</div>
 
 
 
@@ -738,9 +725,9 @@ immediately.
 
     <h3>
     
-    Font contains &#39;.notdef&#39; as its first glyph?
+    The variable font &#39;wght&#39; (Weight) axis coordinate must be within spec range of 1 to 1000 on all instances.
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/mandatory_glyphs&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/wght_valid_range&gt;</div>
 
 
 
@@ -760,9 +747,9 @@ immediately.
 
     <h3>
     
-    Check math signs have the same width.
+    The variable font &#39;wdth&#39; (Width) axis coordinate must strictly greater than zero.
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/math_signs_width&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/wdth_valid_range&gt;</div>
 
 
 
@@ -782,9 +769,9 @@ immediately.
 
     <h3>
     
-    Name table records must not have trailing spaces.
+    All fvar axes have a correspondent Axis Record on STAT table?
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/trailing_spaces&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/stat_axis_record_for_each_axis&gt;</div>
 
 
 
@@ -804,9 +791,9 @@ immediately.
 
     <h3>
     
-    Checking OS/2 Metrics match hhea Metrics.
+    Does the number of glyphs in the loca table match the maxp table?
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2_metrics_match_hhea&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/loca/maxp_num_glyphs&gt;</div>
 
 
 
@@ -826,9 +813,11 @@ immediately.
 
     <h3>
     
-    Checking with ots-sanitize.
+    <div style='color:#88c'>EXPERIMENTAL CHECK - Since 2024/Jun/20</div>
+    
+    Does the font&#39;s CFF table top dict strings fit into the ASCII range?
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/ots&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/cff_ascii_strings&gt;</div>
 
 
 
@@ -848,9 +837,9 @@ immediately.
 
     <h3>
     
-    Font contains all required tables?
+    Is the CFF subr/gsubr call depth &gt; 10?
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/required_tables&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/cff_call_depth&gt;</div>
 
 
 
@@ -870,9 +859,9 @@ immediately.
 
     <h3>
     
-    Ensure indic fonts have the Indian Rupee Sign glyph.
+    Does the font use deprecated CFF operators or operations?
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/rupee&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/cff_deprecated_operators&gt;</div>
 
 
 
@@ -892,9 +881,9 @@ immediately.
 
     <h3>
     
-    Font has the proper sfntVersion value?
+    Is the CFF2 subr/gsubr call depth &gt; 10?
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/sfnt_version&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/cff2_call_depth&gt;</div>
 
 
 
@@ -914,9 +903,9 @@ immediately.
 
     <h3>
     
-    Does the font contain a soft hyphen?
+    Checking font version fields (head and name table).
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/soft_hyphen&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_version&gt;</div>
 
 
 
@@ -936,9 +925,9 @@ immediately.
 
     <h3>
     
-    Checking STAT table entries in static fonts.
+    Font has correct post table version?
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/STAT_in_statics&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/post_table_version&gt;</div>
 
 
 
@@ -958,9 +947,9 @@ immediately.
 
     <h3>
     
-    Check correctness of STAT table strings
+    Checking correctness of monospaced metadata.
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/STAT_strings&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/monospace&gt;</div>
 
 
 
@@ -980,11 +969,9 @@ immediately.
 
     <h3>
     
-    <div style='color:#88c'>EXPERIMENTAL CHECK - Since 2024/Jun/04</div>
-    
-    Check tabular widths don&#39;t have kerning.
+    Check if OS/2 xAvgCharWidth is correct.
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/tabular_kerning&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/xavgcharwidth&gt;</div>
 
 
 
@@ -1004,9 +991,9 @@ immediately.
 
     <h3>
     
-    Ensure component transforms do not perform scaling or rotation.
+    Check if OS/2 fsSelection matches head macStyle bold and italic bits.
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/transformed_components&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/fsselection_matches_macstyle&gt;</div>
 
 
 
@@ -1026,9 +1013,9 @@ immediately.
 
     <h3>
     
-    Checking with fontTools.ttx
+    Checking unitsPerEm value is reasonable.
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/ttx_roundtrip&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unitsperem&gt;</div>
 
 
 
@@ -1048,11 +1035,9 @@ immediately.
 
     <h3>
     
-    <div style='color:#88c'>EXPERIMENTAL CHECK - Since 2024/Jul/17</div>
-    
-    Checking that the typoAscender exceeds the yMax of the /Agrave.
+    Does the font have a DSIG table?
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.arrowtype.fonts/check/typoascender_exceeds_Agrave&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/dsig&gt;</div>
 
 
 
@@ -1072,9 +1057,9 @@ immediately.
 
     <h3>
     
-    Font contains unique glyph names?
+    Check glyphs in mark glyph class are non-spacing.
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unique_glyphnames&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_spacing_marks&gt;</div>
 
 
 
@@ -1094,9 +1079,9 @@ immediately.
 
     <h3>
     
-    Check font contains no unreachable glyphs
+    Check mark characters are in GDEF mark glyph class.
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_mark_chars&gt;</div>
 
 
 
@@ -1116,9 +1101,9 @@ immediately.
 
     <h3>
     
-    Are there unwanted tables?
+    Check GDEF mark glyph class doesn&#39;t have characters that are not marks.
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unwanted_tables&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_non_mark_chars&gt;</div>
 
 
 
@@ -1138,9 +1123,9 @@ immediately.
 
     <h3>
     
-    Glyph names are all valid?
+    Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/valid_glyphnames&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gpos_kerning_info&gt;</div>
 
 
 
@@ -1160,9 +1145,9 @@ immediately.
 
     <h3>
     
-    Font has **proper** whitespace glyph names?
+    Is there a usable &#34;kern&#34; table declared in the font?
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/whitespace_glyphnames&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/kern_table&gt;</div>
 
 
 
@@ -1182,9 +1167,9 @@ immediately.
 
     <h3>
     
-    Font contains glyphs for whitespace characters?
+    Is there any unused data at the end of the glyf table?
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/whitespace_glyphs&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyf_unused_data&gt;</div>
 
 
 
@@ -1204,9 +1189,9 @@ immediately.
 
     <h3>
     
-    Whitespace glyphs have ink?
+    Font follows the family naming recommendations?
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/whitespace_ink&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family_naming_recommendations&gt;</div>
 
 
 
@@ -1226,9 +1211,9 @@ immediately.
 
     <h3>
     
-    Space and non-breaking space have the same width?
+    MaxAdvanceWidth is consistent with values in the Hmtx and Hhea tables?
 </h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/whitespace_widths&gt;</div>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/maxadvancewidth&gt;</div>
 
 
 
@@ -1246,6 +1231,552 @@ immediately.
     
 
 
+    <h3>
+    
+    PostScript name follows OpenType specification requirements?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/postscript_name&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Check for points out of bounds.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/points_out_of_bounds&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Check glyphs do not have duplicate components which have the same x,y coordinates.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyf_non_transformed_duplicate_components&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Check code page character ranges
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/code_pages&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Does the font have any invalid feature tags?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/layout_valid_feature_tags&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Does the font have any invalid script tags?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/layout_valid_script_tags&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Does the font have any invalid language tags?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/layout_valid_language_tags&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Checking post.italicAngle value.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/italic_angle&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Checking head.macStyle value.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/mac_style&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Checking OS/2 fsSelection value.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/fsselection&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Check name table IDs 1, 2, 16, 17 to conform to Italic style.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/italic_names&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Validates that the value of axisNameID used by each VariationAxisRecord is greater than 255 and less than 32768.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/varfont/valid_axis_nameid&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Validates that the value of subfamilyNameID used by each InstanceRecord is 2, 17, or greater than 255 and less than 32768.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/varfont/valid_subfamily_nameid&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Validates that the value of postScriptNameID used by each InstanceRecord is 6, 0xFFFF, or greater than 255 and less than 32768.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/varfont/valid_postscript_nameid&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to a name ID whose string is equal to the string of either name ID 2 or 17, and its postScriptNameID value is set to a name ID whose string is equal to the string of name ID 6.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/varfont/valid_default_instance_nameids&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Validates that all of the instance records in a given font have the same size.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/varfont/same_size_instance_records&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Validates that all of the instance records in a given font have distinct data.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/varfont/distinct_instance_records&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Validate foundry-defined design-variation axis tag names.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/varfont/foundry_defined_tag_name&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Check that family axis ranges are indentical
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/family_axis_ranges&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    STAT table has Axis Value tables?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/stat_has_axis_value_tables&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Checking OS/2 achVendID against configuration.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.thetypefounders/check/vendor_id&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Check hhea.caretSlopeRise and hhea.caretSlopeRun
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/caret_slope&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Ensure VFs have &#39;ital&#39; STAT axis.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/italic_axis_in_stat&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Ensure &#39;ital&#39; STAT axis is boolean value
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/italic_axis_in_stat_is_boolean&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+    <h3>
+    
+    Ensure &#39;ital&#39; STAT axis is last.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/italic_axis_last&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+    
+
+</div>
+
+
+    
+
+    
+
+
+            
+        
+            
+        
             
         
             
@@ -2284,21 +2815,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, canadian-aboriginal, tifinagh, hebrew, duployan, old-permic, tai-le, malayalam, coptic, syriac, math</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, tifinagh, todhri, tai-le, syriac, duployan, malayalam, math, coptic, canadian-aboriginal, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, caucasian-albanian, syriac, tifinagh, thai</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, tifinagh, syriac, cherokee, sunuwar, caucasian-albanian, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, greek, elbasan</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese</li>
 <li>U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese</li>
@@ -2327,12 +2858,12 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: kannada, phags-pa, lepcha, buhid, mandaic, sogdian, kayah-li, sundanese, cham, gujarati, sinhala, thai, oriya, tai-viet, khojki, kharoshthi, mongolian, pahawh-hmong, thaana, javanese, bengali, batak, brahmi, avestan, khmer, nko, kaithi, tagalog, hanifi-rohingya, dogra, mahajani, siddham, hanunoo, syriac, tifinagh, tai-tham, hebrew, masaram-gondi, saurashtra, tai-le, modi, malayalam, zanabazar-square, takri, telugu, limbu, tagbanwa, lao, sharada, gunjala-gondi, arabic, chakma, buginese, syloti-nagri, newa, duployan, new-tai-lue, tamil, devanagari, myanmar, tibetan, tirhuta, rejang, bhaiksuki, gurmukhi, psalter-pahlavi, warang-citi, grantha, yi, meetei-mayek, khudawadi, balinese, hatran, manichaean</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: kannada, phags-pa, lepcha, buhid, mandaic, sogdian, kayah-li, sundanese, cham, gujarati, sinhala, thai, oriya, tai-viet, khojki, kharoshthi, mongolian, pahawh-hmong, thaana, javanese, bengali, batak, brahmi, avestan, khmer, nko, kaithi, tagalog, hanifi-rohingya, dogra, mahajani, siddham, hanunoo, syriac, tifinagh, tai-tham, hebrew, masaram-gondi, saurashtra, tai-le, modi, malayalam, zanabazar-square, takri, telugu, limbu, old-hungarian, lao, sharada, gunjala-gondi, arabic, tagbanwa, chakma, buginese, syloti-nagri, newa, duployan, new-tai-lue, tamil, devanagari, myanmar, tibetan, tirhuta, rejang, bhaiksuki, gurmukhi, psalter-pahlavi, warang-citi, grantha, yi, meetei-mayek, khudawadi, balinese, manichaean</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: thaana, syriac, hebrew, phags-pa, nko, arabic</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: thaana, hebrew, phags-pa, nko, syriac</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: manichaean, kharoshthi, mahajani, siddham, zanabazar-square, hanunoo, khmer, sharada, psalter-pahlavi, kaithi, kannada, balinese, warang-citi, hebrew, tai-viet, grantha, buginese, hatran, javanese, cham, sogdian, tai-le, batak, lao, phags-pa, tagbanwa, tai-tham, malayalam, meetei-mayek, khudawadi, mandaic, khojki, yi, hanifi-rohingya, tamil, tifinagh, mongolian, brahmi, modi, pahawh-hmong, gunjala-gondi, saurashtra, devanagari, new-tai-lue, syriac, gurmukhi, lepcha, limbu, tagalog, thaana, arabic, nko, rejang, sinhala, kayah-li, buhid, thai, tirhuta, tibetan, dogra, duployan, telugu, chakma, myanmar, oriya, sundanese, bhaiksuki, syloti-nagri, newa, gujarati, bengali, takri, masaram-gondi, avestan</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: manichaean, kharoshthi, mahajani, siddham, zanabazar-square, hanunoo, khmer, sharada, psalter-pahlavi, kaithi, kannada, balinese, warang-citi, hebrew, tai-viet, old-hungarian, grantha, buginese, javanese, cham, sogdian, tai-le, batak, lao, phags-pa, tagbanwa, tai-tham, malayalam, meetei-mayek, khudawadi, mandaic, khojki, yi, hanifi-rohingya, tamil, tifinagh, mongolian, brahmi, modi, pahawh-hmong, gunjala-gondi, saurashtra, devanagari, new-tai-lue, syriac, gurmukhi, lepcha, limbu, tagalog, thaana, arabic, nko, rejang, sinhala, kayah-li, buhid, thai, tirhuta, tibetan, dogra, duployan, telugu, chakma, myanmar, oriya, sundanese, bhaiksuki, syloti-nagri, newa, gujarati, bengali, takri, masaram-gondi, avestan</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, phags-pa, thaana, arabic, nko, hebrew</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, phags-pa, thaana, nko, hebrew</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, phags-pa, yi</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: try adding math</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
@@ -2356,19 +2887,19 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, math, tai-tham, yi</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: math, symbols, tai-tham, yi</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -2376,34 +2907,34 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: cham, thai, tai-viet, kharoshthi, marchen, tagalog, hanunoo, wancho, hebrew, canadian-aboriginal, tibetan, devanagari, rejang, bhaiksuki, gurmukhi, yi, bassa-vah, lepcha, mandaic, kayah-li, oriya, khojki, mongolian, thaana, javanese, bengali, khmer, armenian, siddham, tai-le, modi, lao, math, old-permic, psalter-pahlavi, symbols, meetei-mayek, miao, balinese, tifinagh, phags-pa, mende-kikakui, music, sinhala, elbasan, batak, brahmi, kaithi, caucasian-albanian, dogra, soyombo, tai-tham, saurashtra, zanabazar-square, malayalam, takri, telugu, limbu, tagbanwa, gunjala-gondi, ahom, chakma, buginese, syloti-nagri, tamil, tirhuta, myanmar, grantha, kannada, buhid, sogdian, sundanese, gujarati, osage, pahawh-hmong, nko, hanifi-rohingya, coptic, mahajani, adlam, syriac, masaram-gondi, sharada, newa, duployan, new-tai-lue, warang-citi, khudawadi, manichaean</li>
-<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: chinese-hongkong, japanese, phags-pa, chinese-traditional, nushu, yi, chinese-simplified</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: khmer, mende-kikakui, kannada, khojki, marchen, pahawh-hmong, modi, gunjala-gondi, saurashtra, thaana, caucasian-albanian, math, miao, thai, music, oriya, sundanese, tai-le, newa, gujarati, telugu, masaram-gondi, tibetan, tagalog, kharoshthi, hanunoo, psalter-pahlavi, kaithi, warang-citi, tai-viet, grantha, batak, tagbanwa, osage, tifinagh, syriac, symbols, devanagari, soyombo, nko, kayah-li, syloti-nagri, coptic, bengali, manichaean, buginese, javanese, cham, sogdian, khudawadi, brahmi, new-tai-lue, gurmukhi, limbu, rejang, canadian-aboriginal, adlam, tirhuta, chakma, myanmar, bhaiksuki, elbasan, mongolian, takri, mahajani, siddham, zanabazar-square, sharada, balinese, hebrew, lao, phags-pa, tai-tham, malayalam, wancho, meetei-mayek, mandaic, ahom, armenian, yi, hanifi-rohingya, tamil, lepcha, old-permic, sinhala, buhid, bassa-vah, dogra, duployan</li>
+<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: chinese-simplified, chinese-hongkong, japanese, chinese-traditional, phags-pa, nushu, yi</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
-<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, yi, japanese</li>
-<li>U+FF02 FULLWIDTH QUOTATION MARK: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF02 FULLWIDTH QUOTATION MARK: try adding one of: chinese-simplified, japanese, yi</li>
 <li>U+FF03 FULLWIDTH NUMBER SIGN: try adding one of: chinese-simplified, japanese</li>
 <li>U+FF05 FULLWIDTH PERCENT SIGN: try adding one of: chinese-simplified, japanese</li>
 <li>U+FF06 FULLWIDTH AMPERSAND: try adding one of: chinese-simplified, japanese</li>
 <li>U+FF07 FULLWIDTH APOSTROPHE: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: chinese-simplified, yi, japanese</li>
-<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi</li>
 <li>U+FF0A FULLWIDTH ASTERISK: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF0C FULLWIDTH COMMA: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF0C FULLWIDTH COMMA: try adding one of: chinese-simplified, japanese, yi</li>
 <li>U+FF0D FULLWIDTH HYPHEN-MINUS: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF0E FULLWIDTH FULL STOP: try adding one of: chinese-simplified, yi, japanese</li>
-<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: chinese-simplified, yi, japanese</li>
-<li>U+FF1A FULLWIDTH COLON: try adding one of: chinese-simplified, yi, japanese</li>
-<li>U+FF1B FULLWIDTH SEMICOLON: try adding one of: chinese-simplified, yi, japanese</li>
-<li>U+FF1F FULLWIDTH QUESTION MARK: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF0E FULLWIDTH FULL STOP: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF1A FULLWIDTH COLON: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF1B FULLWIDTH SEMICOLON: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF1F FULLWIDTH QUESTION MARK: try adding one of: chinese-simplified, japanese, yi</li>
 <li>U+FF20 FULLWIDTH COMMERCIAL AT: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: chinese-simplified, japanese, yi</li>
 <li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: chinese-simplified, japanese, yi</li>
 <li>U+FF3F FULLWIDTH LOW LINE: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: chinese-simplified, math, japanese, yi</li>
-<li>U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: chinese-simplified, math, japanese, yi</li>
+<li>U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: chinese-simplified, japanese, math, yi</li>
+<li>U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: chinese-simplified, japanese, math, yi</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code></p>
 
@@ -2443,21 +2974,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, canadian-aboriginal, tifinagh, hebrew, duployan, old-permic, tai-le, malayalam, coptic, syriac, math</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, tifinagh, todhri, tai-le, syriac, duployan, malayalam, math, coptic, canadian-aboriginal, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, caucasian-albanian, syriac, tifinagh, thai</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, tifinagh, syriac, cherokee, sunuwar, caucasian-albanian, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, greek, elbasan</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese</li>
 <li>U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese</li>
@@ -2486,12 +3017,12 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: kannada, phags-pa, lepcha, buhid, mandaic, sogdian, kayah-li, sundanese, cham, gujarati, sinhala, thai, oriya, tai-viet, khojki, kharoshthi, mongolian, pahawh-hmong, thaana, javanese, bengali, batak, brahmi, avestan, khmer, nko, kaithi, tagalog, hanifi-rohingya, dogra, mahajani, siddham, hanunoo, syriac, tifinagh, tai-tham, hebrew, masaram-gondi, saurashtra, tai-le, modi, malayalam, zanabazar-square, takri, telugu, limbu, tagbanwa, lao, sharada, gunjala-gondi, arabic, chakma, buginese, syloti-nagri, newa, duployan, new-tai-lue, tamil, devanagari, myanmar, tibetan, tirhuta, rejang, bhaiksuki, gurmukhi, psalter-pahlavi, warang-citi, grantha, yi, meetei-mayek, khudawadi, balinese, hatran, manichaean</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: kannada, phags-pa, lepcha, buhid, mandaic, sogdian, kayah-li, sundanese, cham, gujarati, sinhala, thai, oriya, tai-viet, khojki, kharoshthi, mongolian, pahawh-hmong, thaana, javanese, bengali, batak, brahmi, avestan, khmer, nko, kaithi, tagalog, hanifi-rohingya, dogra, mahajani, siddham, hanunoo, syriac, tifinagh, tai-tham, hebrew, masaram-gondi, saurashtra, tai-le, modi, malayalam, zanabazar-square, takri, telugu, limbu, old-hungarian, lao, sharada, gunjala-gondi, arabic, tagbanwa, chakma, buginese, syloti-nagri, newa, duployan, new-tai-lue, tamil, devanagari, myanmar, tibetan, tirhuta, rejang, bhaiksuki, gurmukhi, psalter-pahlavi, warang-citi, grantha, yi, meetei-mayek, khudawadi, balinese, manichaean</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: thaana, syriac, hebrew, phags-pa, nko, arabic</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: thaana, hebrew, phags-pa, nko, syriac</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: manichaean, kharoshthi, mahajani, siddham, zanabazar-square, hanunoo, khmer, sharada, psalter-pahlavi, kaithi, kannada, balinese, warang-citi, hebrew, tai-viet, grantha, buginese, hatran, javanese, cham, sogdian, tai-le, batak, lao, phags-pa, tagbanwa, tai-tham, malayalam, meetei-mayek, khudawadi, mandaic, khojki, yi, hanifi-rohingya, tamil, tifinagh, mongolian, brahmi, modi, pahawh-hmong, gunjala-gondi, saurashtra, devanagari, new-tai-lue, syriac, gurmukhi, lepcha, limbu, tagalog, thaana, arabic, nko, rejang, sinhala, kayah-li, buhid, thai, tirhuta, tibetan, dogra, duployan, telugu, chakma, myanmar, oriya, sundanese, bhaiksuki, syloti-nagri, newa, gujarati, bengali, takri, masaram-gondi, avestan</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: manichaean, kharoshthi, mahajani, siddham, zanabazar-square, hanunoo, khmer, sharada, psalter-pahlavi, kaithi, kannada, balinese, warang-citi, hebrew, tai-viet, old-hungarian, grantha, buginese, javanese, cham, sogdian, tai-le, batak, lao, phags-pa, tagbanwa, tai-tham, malayalam, meetei-mayek, khudawadi, mandaic, khojki, yi, hanifi-rohingya, tamil, tifinagh, mongolian, brahmi, modi, pahawh-hmong, gunjala-gondi, saurashtra, devanagari, new-tai-lue, syriac, gurmukhi, lepcha, limbu, tagalog, thaana, arabic, nko, rejang, sinhala, kayah-li, buhid, thai, tirhuta, tibetan, dogra, duployan, telugu, chakma, myanmar, oriya, sundanese, bhaiksuki, syloti-nagri, newa, gujarati, bengali, takri, masaram-gondi, avestan</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, phags-pa, thaana, arabic, nko, hebrew</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, phags-pa, thaana, nko, hebrew</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, phags-pa, yi</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: try adding math</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
@@ -2515,19 +3046,19 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, math, tai-tham, yi</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: math, symbols, tai-tham, yi</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -2535,34 +3066,34 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: cham, thai, tai-viet, kharoshthi, marchen, tagalog, hanunoo, wancho, hebrew, canadian-aboriginal, tibetan, devanagari, rejang, bhaiksuki, gurmukhi, yi, bassa-vah, lepcha, mandaic, kayah-li, oriya, khojki, mongolian, thaana, javanese, bengali, khmer, armenian, siddham, tai-le, modi, lao, math, old-permic, psalter-pahlavi, symbols, meetei-mayek, miao, balinese, tifinagh, phags-pa, mende-kikakui, music, sinhala, elbasan, batak, brahmi, kaithi, caucasian-albanian, dogra, soyombo, tai-tham, saurashtra, zanabazar-square, malayalam, takri, telugu, limbu, tagbanwa, gunjala-gondi, ahom, chakma, buginese, syloti-nagri, tamil, tirhuta, myanmar, grantha, kannada, buhid, sogdian, sundanese, gujarati, osage, pahawh-hmong, nko, hanifi-rohingya, coptic, mahajani, adlam, syriac, masaram-gondi, sharada, newa, duployan, new-tai-lue, warang-citi, khudawadi, manichaean</li>
-<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: chinese-hongkong, japanese, phags-pa, chinese-traditional, nushu, yi, chinese-simplified</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: khmer, mende-kikakui, kannada, khojki, marchen, pahawh-hmong, modi, gunjala-gondi, saurashtra, thaana, caucasian-albanian, math, miao, thai, music, oriya, sundanese, tai-le, newa, gujarati, telugu, masaram-gondi, tibetan, tagalog, kharoshthi, hanunoo, psalter-pahlavi, kaithi, warang-citi, tai-viet, grantha, batak, tagbanwa, osage, tifinagh, syriac, symbols, devanagari, soyombo, nko, kayah-li, syloti-nagri, coptic, bengali, manichaean, buginese, javanese, cham, sogdian, khudawadi, brahmi, new-tai-lue, gurmukhi, limbu, rejang, canadian-aboriginal, adlam, tirhuta, chakma, myanmar, bhaiksuki, elbasan, mongolian, takri, mahajani, siddham, zanabazar-square, sharada, balinese, hebrew, lao, phags-pa, tai-tham, malayalam, wancho, meetei-mayek, mandaic, ahom, armenian, yi, hanifi-rohingya, tamil, lepcha, old-permic, sinhala, buhid, bassa-vah, dogra, duployan</li>
+<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: chinese-simplified, chinese-hongkong, japanese, chinese-traditional, phags-pa, nushu, yi</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
-<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, yi, japanese</li>
-<li>U+FF02 FULLWIDTH QUOTATION MARK: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF02 FULLWIDTH QUOTATION MARK: try adding one of: chinese-simplified, japanese, yi</li>
 <li>U+FF03 FULLWIDTH NUMBER SIGN: try adding one of: chinese-simplified, japanese</li>
 <li>U+FF05 FULLWIDTH PERCENT SIGN: try adding one of: chinese-simplified, japanese</li>
 <li>U+FF06 FULLWIDTH AMPERSAND: try adding one of: chinese-simplified, japanese</li>
 <li>U+FF07 FULLWIDTH APOSTROPHE: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: chinese-simplified, yi, japanese</li>
-<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi</li>
 <li>U+FF0A FULLWIDTH ASTERISK: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF0C FULLWIDTH COMMA: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF0C FULLWIDTH COMMA: try adding one of: chinese-simplified, japanese, yi</li>
 <li>U+FF0D FULLWIDTH HYPHEN-MINUS: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF0E FULLWIDTH FULL STOP: try adding one of: chinese-simplified, yi, japanese</li>
-<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: chinese-simplified, yi, japanese</li>
-<li>U+FF1A FULLWIDTH COLON: try adding one of: chinese-simplified, yi, japanese</li>
-<li>U+FF1B FULLWIDTH SEMICOLON: try adding one of: chinese-simplified, yi, japanese</li>
-<li>U+FF1F FULLWIDTH QUESTION MARK: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF0E FULLWIDTH FULL STOP: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF1A FULLWIDTH COLON: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF1B FULLWIDTH SEMICOLON: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF1F FULLWIDTH QUESTION MARK: try adding one of: chinese-simplified, japanese, yi</li>
 <li>U+FF20 FULLWIDTH COMMERCIAL AT: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: chinese-simplified, japanese, yi</li>
 <li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: chinese-simplified, japanese, yi</li>
 <li>U+FF3F FULLWIDTH LOW LINE: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: chinese-simplified, math, japanese, yi</li>
-<li>U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: chinese-simplified, math, japanese, yi</li>
+<li>U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: chinese-simplified, japanese, math, yi</li>
+<li>U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: chinese-simplified, japanese, math, yi</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code></p>
 
@@ -3062,8 +3593,8 @@ definitions.</p>
                             <span class='details_text'>
                             <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̊ į̣̋ į̣̌ į̣̒ į̦̀ į̦́</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Kaska (Latn, 125 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Han (Latn, 6 speakers), Dutch (Latn, 31,709,104 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Zapotec (Latn, 490,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Nateni (Latn, 100,000 speakers), Nzakara (Latn, 50,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Makaa (Latn, 221,000 speakers), Sar (Latn, 500,000 speakers), Ma’di (Latn, 584,000 speakers), Basaa (Latn, 332,940 speakers), Heiltsuk (Latn, 300 speakers), Southern Kisi (Latn, 360,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Igbo (Latn, 27,823,640 speakers), Fur (Latn, 1,230,163 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Aghem (Latn, 38,843 speakers), Dan (Latn, 1,099,244 speakers), Ekpeye (Latn, 226,000 speakers), Avokaya (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ebira (Latn, 2,200,000 speakers), Vute (Latn, 21,000 speakers), Kom (Latn, 360,685 speakers), Mango (Latn, 77,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lugbara (Latn, 2,200,000 speakers), Mfumte (Latn, 79,000 speakers), Bafut (Latn, 158,146 speakers), Ejagham (Latn, 120,000 speakers), South Central Banda (Latn, 244,000 speakers), Gulay (Latn, 250,478 speakers), Cicipu (Latn, 44,000 speakers), Dii (Latn, 71,000 speakers), Yala (Latn, 200,000 speakers), Mundani (Latn, 34,000 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Kaska (Latn, 125 speakers), Han (Latn, 6 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: South Central Banda (Latn, 244,000 speakers), Southern Kisi (Latn, 360,000 speakers), Zapotec (Latn, 490,000 speakers), Ekpeye (Latn, 226,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Yala (Latn, 200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Dii (Latn, 71,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Fur (Latn, 1,230,163 speakers), Makaa (Latn, 221,000 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Dan (Latn, 1,099,244 speakers), Mundani (Latn, 34,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Igbo (Latn, 27,823,640 speakers), Bafut (Latn, 158,146 speakers), Basaa (Latn, 332,940 speakers), Ngbaka (Latn, 1,020,000 speakers), Cicipu (Latn, 44,000 speakers), Kom (Latn, 360,685 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Vute (Latn, 21,000 speakers), Mfumte (Latn, 79,000 speakers), Ebira (Latn, 2,200,000 speakers), Heiltsuk (Latn, 300 speakers), Mango (Latn, 77,000 speakers), Nzakara (Latn, 50,000 speakers), Nateni (Latn, 100,000 speakers), Gulay (Latn, 250,478 speakers), Lugbara (Latn, 2,200,000 speakers).</p>
 
                             
                              [code: soft-dotted]
@@ -3094,8 +3625,8 @@ definitions.</p>
                             <span class='details_text'>
                             <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̊ į̣̋ į̣̌ į̣̒ į̦̀ į̦́</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Kaska (Latn, 125 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Han (Latn, 6 speakers), Dutch (Latn, 31,709,104 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Zapotec (Latn, 490,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Nateni (Latn, 100,000 speakers), Nzakara (Latn, 50,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Makaa (Latn, 221,000 speakers), Sar (Latn, 500,000 speakers), Ma’di (Latn, 584,000 speakers), Basaa (Latn, 332,940 speakers), Heiltsuk (Latn, 300 speakers), Southern Kisi (Latn, 360,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Igbo (Latn, 27,823,640 speakers), Fur (Latn, 1,230,163 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Aghem (Latn, 38,843 speakers), Dan (Latn, 1,099,244 speakers), Ekpeye (Latn, 226,000 speakers), Avokaya (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ebira (Latn, 2,200,000 speakers), Vute (Latn, 21,000 speakers), Kom (Latn, 360,685 speakers), Mango (Latn, 77,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lugbara (Latn, 2,200,000 speakers), Mfumte (Latn, 79,000 speakers), Bafut (Latn, 158,146 speakers), Ejagham (Latn, 120,000 speakers), South Central Banda (Latn, 244,000 speakers), Gulay (Latn, 250,478 speakers), Cicipu (Latn, 44,000 speakers), Dii (Latn, 71,000 speakers), Yala (Latn, 200,000 speakers), Mundani (Latn, 34,000 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Kaska (Latn, 125 speakers), Han (Latn, 6 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: South Central Banda (Latn, 244,000 speakers), Southern Kisi (Latn, 360,000 speakers), Zapotec (Latn, 490,000 speakers), Ekpeye (Latn, 226,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Yala (Latn, 200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Dii (Latn, 71,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Fur (Latn, 1,230,163 speakers), Makaa (Latn, 221,000 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Dan (Latn, 1,099,244 speakers), Mundani (Latn, 34,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Igbo (Latn, 27,823,640 speakers), Bafut (Latn, 158,146 speakers), Basaa (Latn, 332,940 speakers), Ngbaka (Latn, 1,020,000 speakers), Cicipu (Latn, 44,000 speakers), Kom (Latn, 360,685 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Vute (Latn, 21,000 speakers), Mfumte (Latn, 79,000 speakers), Ebira (Latn, 2,200,000 speakers), Heiltsuk (Latn, 300 speakers), Mango (Latn, 77,000 speakers), Nzakara (Latn, 50,000 speakers), Nateni (Latn, 100,000 speakers), Gulay (Latn, 250,478 speakers), Lugbara (Latn, 2,200,000 speakers).</p>
 
                             
                              [code: soft-dotted]
