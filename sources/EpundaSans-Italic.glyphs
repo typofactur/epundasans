@@ -38452,17 +38452,6 @@ unicode = 712;
 instances = (
 {
 axesValues = (
-300
-);
-instanceInterpolations = {
-m003 = 1;
-};
-isItalic = 1;
-name = "Light Italic";
-weightClass = 300;
-},
-{
-axesValues = (
 400
 );
 instanceInterpolations = {
