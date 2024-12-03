@@ -39074,6 +39074,16 @@ unicode = 712;
 instances = (
 {
 axesValues = (
+300
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Light;
+weightClass = 300;
+},
+{
+axesValues = (
 400
 );
 instanceInterpolations = {
