@@ -3,7 +3,10 @@
 .formatVersion = 3;
 DisplayStrings = (
 fl,
-"◌"
+"◌",
+"/caroncomb.alt",
+"Ľ",
+"Ǟ"
 );
 axes = (
 {
@@ -863,6 +866,46 @@ width = 580;
 }
 );
 unicode = 196;
+},
+{
+glyphname = Adieresismacron;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (125,167);
+ref = dieresiscomb;
+},
+{
+pos = (102,375);
+ref = macroncomb;
+}
+);
+width = 538;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (99,157);
+ref = dieresiscomb;
+},
+{
+pos = (124,377);
+ref = macroncomb;
+}
+);
+width = 580;
+}
+);
+unicode = 478;
 },
 {
 glyphname = Adotbelow;
@@ -4443,7 +4486,7 @@ unicode = 313;
 },
 {
 glyphname = Lcaron;
-lastChange = "2022-10-23 21:51:10 +0000";
+lastChange = "2024-12-03 19:40:38 +0000";
 layers = (
 {
 layerId = m003;
@@ -4452,8 +4495,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (48,137);
-ref = caroncomb;
+pos = (143,0);
+ref = caroncomb.alt;
 }
 );
 width = 432;
@@ -4465,8 +4508,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (67,157);
-ref = caroncomb;
+pos = (230,0);
+ref = caroncomb.alt;
 }
 );
 width = 475;
