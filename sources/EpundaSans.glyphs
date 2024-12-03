@@ -4,7 +4,11 @@
 DisplayStrings = (
 "฿",
 "¢",
-$
+$,
+"ď",
+"ľ",
+"đ",
+"◌"
 );
 axes = (
 {
@@ -502,6 +506,38 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = e;
+},
+{
+name = typoAscender;
+value = 1015;
+},
+{
+name = typoDescender;
+value = -315;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 1015;
+},
+{
+name = hheaDescender;
+value = -315;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1057;
+},
+{
+name = winDescent;
+value = 430;
 }
 );
 iconName = Light;
@@ -11299,82 +11335,17 @@ unicode = 100;
 },
 {
 glyphname = dcaron;
-lastChange = "2024-11-30 22:24:05 +0000";
+lastChange = "2024-12-03 18:14:15 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(522,500,l),
-(562,500,l),
-(572,700,l),
-(512,700,l)
-);
+pos = (452,0);
+ref = caroncomb.alt;
 },
 {
-closed = 1;
-nodes = (
-(437,70,l),
-(437,700,l),
-(377,710,l),
-(377,60,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(407,0,l),
-(437,0,l),
-(437,70,l),
-(377,60,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(405,150,o),
-(339,47,o),
-(247,47,c),
-(247,-8,l),
-(358,-8,o),
-(437,140,o),
-(437,140,c),
-(405,150,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(437,360,l),
-(437,360,o),
-(358,508,o),
-(247,508,c),
-(247,452,l),
-(339,452,o),
-(405,350,o),
-(405,350,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(247,508,l),
-(101,508,o),
-(42,379,o),
-(42,250,cs),
-(42,121,o),
-(101,-8,o),
-(247,-8,c),
-(247,47,l),
-(136,47,o),
-(104,145,o),
-(104,250,cs),
-(104,354,o),
-(136,452,o),
-(247,452,c)
-);
+ref = d;
 }
 );
 width = 647;
@@ -11383,76 +11354,11 @@ width = 647;
 layerId = m002;
 shapes = (
 {
-closed = 1;
-nodes = (
-(532,440,l),
-(632,440,l),
-(652,700,l),
-(512,700,l)
-);
+pos = (487,0);
+ref = caroncomb.alt;
 },
 {
-closed = 1;
-nodes = (
-(490,70,l),
-(490,690,l),
-(310,710,l),
-(310,60,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(340,0,l),
-(490,0,l),
-(490,70,l),
-(310,60,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(420,170,o),
-(295,107,o),
-(260,107,c),
-(200,-8,l),
-(311,-8,o),
-(420,170,o),
-(420,170,c),
-(420,170,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(420,330,l),
-(420,330,o),
-(311,508,o),
-(200,508,c),
-(260,392,l),
-(295,392,o),
-(420,330,o),
-(420,330,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(200,508,l),
-(74,508,o),
-(15,379,o),
-(15,250,cs),
-(15,121,o),
-(74,-8,o),
-(200,-8,c),
-(260,107,l),
-(199,107,o),
-(197,205,o),
-(197,250,cs),
-(197,294,o),
-(199,392,o),
-(260,392,c)
-);
+ref = d;
 }
 );
 width = 687;
@@ -11497,7 +11403,7 @@ unicode = 7699;
 },
 {
 glyphname = dcroat;
-lastChange = "2022-11-22 23:10:59 +0000";
+lastChange = "2024-12-03 18:39:42 +0000";
 layers = (
 {
 layerId = m01;
@@ -11506,7 +11412,8 @@ shapes = (
 ref = d;
 },
 {
-pos = (192,350);
+alignment = -1;
+pos = (202,350);
 ref = strokeshortcomb;
 }
 );
@@ -11519,7 +11426,8 @@ shapes = (
 ref = d;
 },
 {
-pos = (170,350);
+alignment = -1;
+pos = (150,350);
 ref = strokeshortcomb;
 }
 );
@@ -14941,7 +14849,7 @@ unicode = 314;
 },
 {
 glyphname = lcaron;
-lastChange = "2024-11-30 22:21:37 +0000";
+lastChange = "2024-12-03 18:25:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -14950,7 +14858,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (130,0);
+pos = (135,0);
 ref = caroncomb.alt;
 }
 );
@@ -29427,30 +29335,6 @@ metricRight = "=|";
 unicode = 45;
 },
 {
-glyphname = softhyphen;
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = hyphen;
-}
-);
-width = 450;
-},
-{
-layerId = m002;
-shapes = (
-{
-ref = hyphen;
-}
-);
-width = 456;
-}
-);
-unicode = 173;
-},
-{
 glyphname = endash;
 lastChange = "2022-10-20 21:32:46 +0000";
 layers = (
@@ -29616,6 +29500,32 @@ width = 456;
 }
 );
 unicode = 65293;
+},
+{
+export = 0;
+glyphname = softhyphen;
+lastChange = "2024-12-03 18:35:43 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = hyphen;
+}
+);
+width = 450;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = hyphen;
+}
+);
+width = 456;
+}
+);
+unicode = 173;
 },
 {
 glyphname = parenleft;
@@ -39758,6 +39668,19 @@ type = "italic angle";
 );
 properties = (
 {
+key = designers;
+values = (
+{
+language = dflt;
+value = "Simon Atzbach";
+}
+);
+},
+{
+key = designerURL;
+value = "https://typofactur.de";
+},
+{
 key = licenses;
 values = (
 {
@@ -39769,6 +39692,23 @@ value = "SIL Open Font License, Version 1.1. ";
 {
 key = licenseURL;
 value = "https://openfontlicense.org";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = typofactur;
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://typofactur.de";
+},
+{
+key = vendorID;
+value = TYFA;
 }
 );
 unitsPerEm = 1000;
@@ -39797,5 +39737,5 @@ tH = "55";
 };
 };
 versionMajor = 2;
-versionMinor = 100;
+versionMinor = 101;
 }
