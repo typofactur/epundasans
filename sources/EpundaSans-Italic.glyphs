@@ -38497,7 +38497,7 @@ m004 = 0.5;
 };
 isItalic = 1;
 linkStyle = SemiBold;
-name = "SBold Italic";
+name = "SemiBold Italic";
 weightClass = 600;
 },
 {
@@ -38524,7 +38524,7 @@ m004 = 0.83333;
 };
 isItalic = 1;
 linkStyle = ExtraBold;
-name = "XBold Italic";
+name = "ExtraBold Italic";
 weightClass = 800;
 },
 {
