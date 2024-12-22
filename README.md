@@ -19,6 +19,7 @@ Epundas Sans is a variable font with a weight axis that ranges from Light (300) 
 
 ![Sample Image](documentation/epundasans_cover.png)
 ![Sample Image](documentation/epundasans_alphabet.png)
+![Sample Image](documentation/epundasansitalic_alphabet.png)
 ![Sample Image](documentation/epundasans_weights.png)
 
 ## About
