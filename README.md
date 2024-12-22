@@ -17,7 +17,9 @@
 Epunda Sans is a simple sans serif font. Its characteristic features are its slanted indentations. It is an unadorned but friendly font that remains easy to read even at small font sizes and on screens thanks to its high x-height and large interior spaces.
 Epundas Sans is a variable font with a weight axis that ranges from Light (300) to Black (900).
 
-![Sample Image](documentation/image1.png)
+![Sample Image](documentation/epundasans_cover.png)
+![Sample Image](documentation/epundasans_alphabet.png)
+![Sample Image](documentation/epundasans_weights.png)
 
 ## About
 
