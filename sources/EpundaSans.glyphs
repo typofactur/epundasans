@@ -2,7 +2,8 @@
 .appVersion = "3260";
 .formatVersion = 3;
 DisplayStrings = (
-a
+"฿",
+"¢"
 );
 axes = (
 {
@@ -15952,7 +15953,7 @@ unicode = 333;
 },
 {
 glyphname = oslash;
-lastChange = "2024-11-30 21:25:41 +0000";
+lastChange = "2024-12-24 15:02:31 +0000";
 layers = (
 {
 anchors = (
@@ -16016,12 +16017,6 @@ name = top;
 pos = (273,500);
 }
 );
-attr = {
-axisRules = (
-{
-}
-);
-};
 layerId = m002;
 name = Black;
 shapes = (
@@ -16078,7 +16073,6 @@ unicode = 248;
 },
 {
 glyphname = oslashacute;
-lastChange = "2022-10-27 19:10:16 +0000";
 layers = (
 {
 layerId = m01;
@@ -31213,15 +31207,9 @@ unicode = 402;
 },
 {
 glyphname = baht;
-lastChange = "2024-12-03 18:00:16 +0000";
+lastChange = "2024-12-24 15:07:29 +0000";
 layers = (
 {
-attr = {
-axisRules = (
-{
-}
-);
-};
 layerId = m002;
 name = Black;
 shapes = (
@@ -31250,12 +31238,6 @@ nodes = (
 width = 575;
 },
 {
-attr = {
-axisRules = (
-{
-}
-);
-};
 layerId = m01;
 name = Light;
 shapes = (
@@ -32615,7 +32597,7 @@ unicode = 8225;
 },
 {
 glyphname = cent;
-lastChange = "2024-12-03 18:02:50 +0000";
+lastChange = "2024-12-24 15:09:41 +0000";
 layers = (
 {
 layerId = m01;
@@ -32645,12 +32627,6 @@ nodes = (
 width = 433;
 },
 {
-attr = {
-axisRules = (
-{
-}
-);
-};
 layerId = m002;
 name = Black;
 shapes = (
