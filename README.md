@@ -3,16 +3,16 @@
 
 # Epunda Sans
 
-[![][Fontbakery]](https://typofactur.github.io/epundasans.git/fontbakery/fontbakery-report.html)
-[![][Universal]](https://typofactur.github.io/epundasans.git/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://typofactur.github.io/epundasans.git/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://typofactur.github.io/epundasans.git/fontbakery/fontbakery-report.html)
+[![][Fontbakery]](https://typofactur.github.io/epundasans/fontbakery/fontbakery-report.html)
+[![][Universal]](https://typofactur.github.io/epundasans/fontbakery/fontbakery-report.html)
+[![][GF Profile]](https://typofactur.github.io/epundasans/fontbakery/fontbakery-report.html)
+[![][Shaping]](https://typofactur.github.io/epundasans/fontbakery/fontbakery-report.html)
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftypofactur%2Fepundasans.git%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftypofactur%2Fepundasans.git%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftypofactur%2Fepundasans.git%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftypofactur%2Fepundasans.git%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftypofactur%2Fepundasans.git%2Fgh-pages%2Fbadges%2FUniversal.json
+[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftypofactur%2Fepundasans%2Fgh-pages%2Fbadges%2Foverall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftypofactur%2Fepundasans%2Fgh-pages%2Fbadges%2FGoogleFonts.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftypofactur%2Fepundasans%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftypofactur%2Fepundasans%2Fgh-pages%2Fbadges%2FShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftypofactur%2Fepundasans%2Fgh-pages%2Fbadges%2FUniversal.json
 
 Epunda Sans is a simple sans serif font. Its characteristic features are its slanted indentations. It is an unadorned but friendly font that remains easy to read even at small font sizes and on screens thanks to its high x-height and large interior spaces.
 Epundas Sans is a variable font with a weight axis that ranges from Light (300) to Black (900).
