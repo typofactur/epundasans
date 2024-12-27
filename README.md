@@ -28,7 +28,8 @@ The variable font has a weight axis that ranges from Light (300) to Black (900).
 
 ## About
 
-typofactur is a German foundry run by the graphic designer Simon Atzbach.
+typofactur is a German type foundry run by the graphic designer Simon Atzbach.
+Find out more at https://typofactur.de
 
 ## Building
 
@@ -45,7 +46,12 @@ The proof files and QA tests are also available automatically via GitHub Actions
 ## Changelog
 
 **30 Nov 2024. Version 2.001**
-- Initial release
+- initial release
+
+**25 December 2024. Version 2.103**
+- including Italic
+- analog to Epunda Slab
+
 
 ## License
 
