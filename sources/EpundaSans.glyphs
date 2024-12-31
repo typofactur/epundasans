@@ -128,6 +128,10 @@ value = (
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Use Extension Kerning";
+value = 1;
 }
 );
 date = "2024-11-30 19:49:06 +0000";
@@ -1228,7 +1232,6 @@ unicode = 194;
 glyphname = Acircumflexdotbelow;
 kernLeft = KO_A;
 kernRight = KO_A;
-lastChange = "2024-12-31 18:40:26 +0000";
 layers = (
 {
 layerId = m01;
