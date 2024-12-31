@@ -52,6 +52,9 @@ The proof files and QA tests are also available automatically via GitHub Actions
 - including Italic
 - analog to Epunda Slab
 
+**31 December 2024. Version 2.200**
+- kerning with kern on
+
 
 ## License
 
