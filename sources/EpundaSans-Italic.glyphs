@@ -14,7 +14,9 @@ DisplayStrings = (
 "‹",
 "!",
 "¡",
-""
+"",
+"aậ",
+"aâ"
 );
 axes = (
 {
@@ -10093,7 +10095,7 @@ width = 542;
 glyphname = a;
 kernLeft = KO_a;
 kernRight = KO_a;
-lastChange = "2024-12-31 15:34:11 +0000";
+lastChange = "2024-12-31 18:41:09 +0000";
 layers = (
 {
 anchors = (
@@ -10205,15 +10207,15 @@ width = 498;
 anchors = (
 {
 name = bottom;
-pos = (255,0);
+pos = (197,0);
 },
 {
 name = ogonek;
-pos = (430,10);
+pos = (432,0);
 },
 {
 name = top;
-pos = (361,500);
+pos = (303,500);
 }
 );
 attr = {
@@ -10538,7 +10540,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (188,0);
+pos = (130,0);
 ref = acutecomb;
 }
 );
@@ -10572,7 +10574,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (106,0);
+pos = (48,0);
 ref = brevecomb;
 }
 );
@@ -10606,7 +10608,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (103,0);
+pos = (45,0);
 ref = caroncomb;
 }
 );
@@ -10632,6 +10634,7 @@ unicode = 462;
 glyphname = acircumflex;
 kernLeft = KO_a;
 kernRight = KO_a;
+lastChange = "2024-12-31 18:41:16 +0000";
 layers = (
 {
 layerId = m003;
@@ -10640,7 +10643,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (103,0);
+pos = (45,0);
 ref = circumflexcomb;
 }
 );
@@ -10663,6 +10666,49 @@ width = 550;
 unicode = 226;
 },
 {
+glyphname = acircumflexdotbelow;
+kernLeft = KO_a;
+kernRight = KO_a;
+lastChange = "2024-12-31 18:41:33 +0000";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (145,0);
+ref = dotbelowcomb;
+},
+{
+pos = (45,0);
+ref = circumflexcomb;
+}
+);
+width = 556;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (243,0);
+ref = dotbelowcomb;
+},
+{
+pos = (170,0);
+ref = circumflexcomb;
+}
+);
+width = 550;
+}
+);
+unicode = 7853;
+},
+{
 glyphname = adieresis;
 kernLeft = KO_a;
 kernRight = KO_adieresis;
@@ -10674,7 +10720,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (128,0);
+pos = (70,0);
 ref = dieresiscomb;
 }
 );
@@ -10708,7 +10754,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (203,0);
+pos = (145,0);
 ref = dotbelowcomb;
 }
 );
@@ -10742,7 +10788,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (118,0);
+pos = (60,0);
 ref = gravecomb;
 }
 );
@@ -10776,7 +10822,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (61,0);
+pos = (3,0);
 ref = macroncomb;
 }
 );
@@ -10809,7 +10855,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (309,10);
+pos = (311,0);
 ref = ogonekcomb;
 }
 );
@@ -10843,7 +10889,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (168,0);
+pos = (110,0);
 ref = ringcomb;
 }
 );
@@ -10877,7 +10923,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (73,0);
+pos = (15,0);
 ref = tildecomb;
 }
 );
@@ -21269,50 +21315,6 @@ metricLeft = "=h";
 },
 {
 export = 0;
-glyphname = acircumflexdotbelow;
-kernLeft = KO_a;
-kernRight = KO_a;
-lastChange = "2024-12-31 16:49:23 +0000";
-layers = (
-{
-layerId = m003;
-shapes = (
-{
-ref = a;
-},
-{
-pos = (203,0);
-ref = dotbelowcomb;
-},
-{
-pos = (103,0);
-ref = circumflexcomb;
-}
-);
-width = 556;
-},
-{
-layerId = m004;
-shapes = (
-{
-ref = a;
-},
-{
-pos = (243,0);
-ref = dotbelowcomb;
-},
-{
-pos = (170,0);
-ref = circumflexcomb;
-}
-);
-width = 550;
-}
-);
-unicode = 7853;
-},
-{
-export = 0;
 glyphname = adieresismacron;
 kernLeft = KO_a;
 kernRight = KO_adieresis;
@@ -21325,11 +21327,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (128,0);
+pos = (70,0);
 ref = dieresiscomb;
 },
 {
-pos = (105,208);
+pos = (47,208);
 ref = macroncomb;
 }
 );
