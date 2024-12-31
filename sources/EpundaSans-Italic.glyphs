@@ -1196,6 +1196,38 @@ KernOnName = Adieresis;
 };
 },
 {
+glyphname = Adotbelow;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (164,0);
+ref = dotbelowcomb;
+}
+);
+width = 538;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (165,0);
+ref = dotbelowcomb;
+}
+);
+width = 580;
+}
+);
+unicode = 7840;
+},
+{
 glyphname = Agrave;
 kernLeft = KO_A;
 kernRight = KO_A;
@@ -10619,48 +10651,6 @@ width = 550;
 }
 );
 unicode = 226;
-},
-{
-glyphname = acircumflexdotbelow;
-kernLeft = KO_a;
-kernRight = KO_a;
-layers = (
-{
-layerId = m003;
-shapes = (
-{
-ref = a;
-},
-{
-pos = (203,0);
-ref = dotbelowcomb;
-},
-{
-pos = (103,0);
-ref = circumflexcomb;
-}
-);
-width = 556;
-},
-{
-layerId = m004;
-shapes = (
-{
-ref = a;
-},
-{
-pos = (243,0);
-ref = dotbelowcomb;
-},
-{
-pos = (170,0);
-ref = circumflexcomb;
-}
-);
-width = 550;
-}
-);
-unicode = 7853;
 },
 {
 glyphname = adieresis;
@@ -21266,6 +21256,50 @@ width = 523;
 }
 );
 metricLeft = "=h";
+},
+{
+export = 0;
+glyphname = acircumflexdotbelow;
+kernLeft = KO_a;
+kernRight = KO_a;
+lastChange = "2024-12-31 16:49:23 +0000";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (203,0);
+ref = dotbelowcomb;
+},
+{
+pos = (103,0);
+ref = circumflexcomb;
+}
+);
+width = 556;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (243,0);
+ref = dotbelowcomb;
+},
+{
+pos = (170,0);
+ref = circumflexcomb;
+}
+);
+width = 550;
+}
+);
+unicode = 7853;
 },
 {
 export = 0;
@@ -49647,8 +49681,6 @@ ytilde = -28;
 Saltillo = {
 A = -35;
 };
-Scaron = {
-};
 T = {
 A = -100;
 Adieresis = -80;
@@ -61041,8 +61073,6 @@ ytilde = -46;
 };
 Saltillo = {
 A = -63;
-};
-Scaron = {
 };
 T = {
 A = -100;
