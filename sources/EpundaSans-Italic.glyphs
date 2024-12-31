@@ -30409,6 +30409,30 @@ width = 275;
 unicode = 65292;
 },
 {
+glyphname = exclam.full;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = exclam;
+}
+);
+width = 210;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = exclam;
+}
+);
+width = 250;
+}
+);
+unicode = 65281;
+},
+{
 glyphname = numbersign.full;
 layers = (
 {

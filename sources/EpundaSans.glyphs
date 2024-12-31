@@ -22,7 +22,8 @@ DisplayStrings = (
 "/caroncomb.alt ď",
 "ľ",
 "ť",
-""
+"！",
+"＼"
 );
 axes = (
 {
@@ -29014,6 +29015,30 @@ width = 275;
 }
 );
 unicode = 65292;
+},
+{
+glyphname = exclam.full;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = exclam;
+}
+);
+width = 210;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = exclam;
+}
+);
+width = 250;
+}
+);
+unicode = 65281;
 },
 {
 glyphname = numbersign.full;
