@@ -1,6 +1,9 @@
 {
 .appVersion = "3337";
 .formatVersion = 3;
+DisplayStrings = (
+"◌"
+);
 axes = (
 {
 name = Weight;
