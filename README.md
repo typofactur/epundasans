@@ -59,6 +59,10 @@ The proof files and QA tests are also available automatically via GitHub Actions
 - a and e without alternative
 - a.salt and e.salt
 
+**03 January 2025. Version 2.202**
+- ogonek, eogonek
+- path direction guillemot right
+
 
 ## License
 

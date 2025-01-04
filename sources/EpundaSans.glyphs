@@ -1,6 +1,14 @@
 {
 .appVersion = "3337";
 .formatVersion = 3;
+DisplayStrings = (
+e,
+"˛",
+"̨",
+"UŲ",
+"UŲ",
+"AĄ"
+);
 axes = (
 {
 name = Weight;
@@ -26,7 +34,7 @@ name = "Use Extension Kerning";
 value = 1;
 }
 );
-date = "2025-01-04 00:03:03 +0000";
+date = "2025-01-04 17:23:24 +0000";
 familyName = "Epunda Sans";
 featurePrefixes = (
 {
@@ -891,7 +899,7 @@ glyphs = (
 glyphname = A;
 kernLeft = KO_A;
 kernRight = KO_A;
-lastChange = "2024-12-31 17:41:33 +0000";
+lastChange = "2025-01-04 17:26:05 +0000";
 layers = (
 {
 anchors = (
@@ -943,7 +951,7 @@ pos = (290,0);
 },
 {
 name = ogonek;
-pos = (522,10);
+pos = (580,0);
 },
 {
 name = top;
@@ -1342,7 +1350,7 @@ unicode = 256;
 glyphname = Aogonek;
 kernLeft = KO_A;
 kernRight = KO_A;
-lastChange = "2022-11-25 16:49:14 +0000";
+lastChange = "2025-01-04 17:26:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -1351,7 +1359,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (323,-16);
+pos = (349,0);
 ref = ogonekcomb;
 }
 );
@@ -1364,7 +1372,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (297,-6);
+pos = (415,0);
 ref = ogonekcomb;
 }
 );
@@ -2836,7 +2844,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (261,-16);
+pos = (287,0);
 ref = ogonekcomb;
 }
 );
@@ -2849,7 +2857,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (250,-6);
+pos = (310,10);
 ref = ogonekcomb;
 }
 );
@@ -4433,7 +4441,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (-55,-16);
+pos = (-29,0);
 ref = ogonekcomb;
 }
 );
@@ -4446,7 +4454,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (2,-16);
+pos = (62,0);
 ref = ogonekcomb;
 }
 );
@@ -7971,7 +7979,7 @@ unicode = 7790;
 glyphname = U;
 kernLeft = KO_U;
 kernRight = KO_U;
-lastChange = "2024-12-31 17:36:14 +0000";
+lastChange = "2025-01-04 17:25:35 +0000";
 layers = (
 {
 anchors = (
@@ -7981,7 +7989,7 @@ pos = (309,0);
 },
 {
 name = ogonek;
-pos = (309,-8);
+pos = (378,0);
 },
 {
 name = top;
@@ -8042,7 +8050,7 @@ pos = (309,0);
 },
 {
 name = ogonek;
-pos = (556,10);
+pos = (400,0);
 },
 {
 name = top;
@@ -8415,7 +8423,7 @@ unicode = 362;
 glyphname = Uogonek;
 kernLeft = KO_U;
 kernRight = KO_U;
-lastChange = "2022-10-23 22:09:11 +0000";
+lastChange = "2025-01-04 17:25:35 +0000";
 layers = (
 {
 layerId = m01;
@@ -8424,7 +8432,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (109,-24);
+pos = (204,0);
 ref = ogonekcomb;
 }
 );
@@ -8437,7 +8445,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (331,-6);
+pos = (235,0);
 ref = ogonekcomb;
 }
 );
@@ -10814,7 +10822,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (217,-16);
+pos = (243,0);
 ref = ogonekcomb;
 }
 );
@@ -10827,7 +10835,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (229,-6);
+pos = (289,10);
 ref = ogonekcomb;
 }
 );
@@ -12179,7 +12187,7 @@ unicode = 240;
 glyphname = e;
 kernLeft = KO_e;
 kernRight = KO_e;
-lastChange = "2025-01-04 00:02:49 +0000";
+lastChange = "2025-01-04 17:21:25 +0000";
 layers = (
 {
 anchors = (
@@ -12271,7 +12279,7 @@ pos = (230,0);
 },
 {
 name = ogonek;
-pos = (437,10);
+pos = (440,45);
 },
 {
 name = top;
@@ -12710,7 +12718,7 @@ unicode = 275;
 glyphname = eogonek;
 kernLeft = KO_e;
 kernRight = KO_e;
-lastChange = "2022-10-23 22:09:11 +0000";
+lastChange = "2025-01-04 17:21:27 +0000";
 layers = (
 {
 layerId = m01;
@@ -12719,7 +12727,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (47,-24);
+pos = (73,-8);
 ref = ogonekcomb;
 }
 );
@@ -12732,7 +12740,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (212,-6);
+pos = (275,45);
 ref = ogonekcomb;
 }
 );
@@ -14667,7 +14675,7 @@ ref = idotless;
 ref = dotaccentcomb;
 },
 {
-pos = (-65,-16);
+pos = (-39,0);
 ref = ogonekcomb;
 }
 );
@@ -14683,7 +14691,7 @@ ref = idotless;
 ref = dotaccentcomb;
 },
 {
-pos = (0,-6);
+pos = (60,10);
 ref = ogonekcomb;
 }
 );
@@ -19448,7 +19456,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (240,-16);
+pos = (266,0);
 ref = ogonekcomb;
 }
 );
@@ -19461,7 +19469,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (239,-6);
+pos = (299,10);
 ref = ogonekcomb;
 }
 );
@@ -40606,13 +40614,13 @@ R = NoKerning;
 },
 {
 glyphname = ogonekcomb;
-lastChange = "2024-12-31 17:20:32 +0000";
+lastChange = "2025-01-04 17:22:06 +0000";
 layers = (
 {
 anchors = (
 {
 name = _ogonek;
-pos = (200,16);
+pos = (174,0);
 }
 );
 layerId = m01;
@@ -40649,7 +40657,7 @@ width = 260;
 anchors = (
 {
 name = _ogonek;
-pos = (225,16);
+pos = (165,0);
 }
 );
 layerId = m002;
@@ -64154,5 +64162,5 @@ KernOnRegenerateGroups = 1;
 KernOnVersion = "1.33";
 };
 versionMajor = 2;
-versionMinor = 201;
+versionMinor = 202;
 }

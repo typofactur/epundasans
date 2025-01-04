@@ -2,8 +2,8 @@
 .appVersion = "3337";
 .formatVersion = 3;
 DisplayStrings = (
-"/e.salt",
-"/a.salt"
+"›",
+"»"
 );
 axes = (
 {
@@ -30,7 +30,7 @@ name = "Use Extension Kerning";
 value = 1;
 }
 );
-date = "2025-01-04 00:04:17 +0000";
+date = "2025-01-04 17:23:21 +0000";
 familyName = "Epunda Sans";
 featurePrefixes = (
 {
@@ -2327,7 +2327,7 @@ unicode = 208;
 glyphname = E;
 kernLeft = KO_H;
 kernRight = KO_E;
-lastChange = "2024-12-31 15:21:32 +0000";
+lastChange = "2025-01-04 17:24:19 +0000";
 layers = (
 {
 anchors = (
@@ -2337,7 +2337,7 @@ pos = (308,0);
 },
 {
 name = ogonek;
-pos = (491,10);
+pos = (408,0);
 },
 {
 name = top;
@@ -2378,7 +2378,7 @@ pos = (211,0);
 },
 {
 name = ogonek;
-pos = (424,10);
+pos = (451,0);
 },
 {
 name = top;
@@ -2779,7 +2779,7 @@ unicode = 274;
 {
 glyphname = Eogonek;
 kernLeft = KO_H;
-lastChange = "2022-11-25 16:49:39 +0000";
+lastChange = "2025-01-04 17:24:19 +0000";
 layers = (
 {
 layerId = m003;
@@ -2788,7 +2788,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (370,10);
+pos = (287,0);
 ref = ogonekcomb;
 }
 );
@@ -2801,7 +2801,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (312,10);
+pos = (339,0);
 ref = ogonekcomb;
 }
 );
@@ -7921,7 +7921,7 @@ unicode = 7790;
 glyphname = U;
 kernLeft = KO_U;
 kernRight = KO_U;
-lastChange = "2024-12-31 15:21:34 +0000";
+lastChange = "2025-01-04 17:24:42 +0000";
 layers = (
 {
 anchors = (
@@ -7931,7 +7931,7 @@ pos = (256,0);
 },
 {
 name = ogonek;
-pos = (505,10);
+pos = (330,0);
 },
 {
 name = top;
@@ -7992,7 +7992,7 @@ pos = (256,0);
 },
 {
 name = ogonek;
-pos = (505,10);
+pos = (342,0);
 },
 {
 name = top;
@@ -8365,7 +8365,7 @@ unicode = 362;
 glyphname = Uogonek;
 kernLeft = KO_U;
 kernRight = KO_U;
-lastChange = "2022-10-23 22:09:11 +0000";
+lastChange = "2025-01-04 17:24:42 +0000";
 layers = (
 {
 layerId = m003;
@@ -8374,7 +8374,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (384,10);
+pos = (209,0);
 ref = ogonekcomb;
 }
 );
@@ -8387,7 +8387,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (393,10);
+pos = (231,0);
 ref = ogonekcomb;
 }
 );
@@ -11985,7 +11985,7 @@ unicode = 240;
 glyphname = e;
 kernLeft = KO_e;
 kernRight = KO_e;
-lastChange = "2025-01-04 00:04:51 +0000";
+lastChange = "2025-01-04 17:21:14 +0000";
 layers = (
 {
 anchors = (
@@ -11995,7 +11995,7 @@ pos = (167,0);
 },
 {
 name = ogonek;
-pos = (374,10);
+pos = (366,45);
 },
 {
 name = top;
@@ -12498,7 +12498,7 @@ unicode = 275;
 glyphname = eogonek;
 kernLeft = KO_e;
 kernRight = KO_e;
-lastChange = "2022-10-23 22:09:11 +0000";
+lastChange = "2025-01-04 17:21:17 +0000";
 layers = (
 {
 layerId = m003;
@@ -12507,7 +12507,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (253,10);
+pos = (245,45);
 ref = ogonekcomb;
 }
 );
@@ -14112,7 +14112,7 @@ KernOnName = i;
 glyphname = idotless;
 kernLeft = KO_n;
 kernRight = KO_g;
-lastChange = "2022-10-23 17:41:22 +0000";
+lastChange = "2025-01-04 17:24:57 +0000";
 layers = (
 {
 anchors = (
@@ -14122,7 +14122,7 @@ pos = (52,0);
 },
 {
 name = ogonek;
-pos = (138,10);
+pos = (82,0);
 },
 {
 name = top;
@@ -14151,7 +14151,7 @@ pos = (72,0);
 },
 {
 name = ogonek;
-pos = (174,10);
+pos = (162,0);
 },
 {
 name = top;
@@ -14445,7 +14445,7 @@ unicode = 299;
 glyphname = iogonek;
 kernLeft = KO_i;
 kernRight = KO_i;
-lastChange = "2022-10-23 22:09:11 +0000";
+lastChange = "2025-01-04 17:24:57 +0000";
 layers = (
 {
 layerId = m003;
@@ -14457,7 +14457,7 @@ ref = idotless;
 ref = dotaccentcomb;
 },
 {
-pos = (17,10);
+pos = (-39,0);
 ref = ogonekcomb;
 }
 );
@@ -14473,7 +14473,7 @@ ref = idotless;
 ref = dotaccentcomb;
 },
 {
-pos = (62,10);
+pos = (50,0);
 ref = ogonekcomb;
 }
 );
@@ -31979,7 +31979,7 @@ R = quotes;
 glyphname = guillemotright;
 kernLeft = KO_guillemotright;
 kernRight = KO_guillemotright;
-lastChange = "2024-12-31 14:56:33 +0000";
+lastChange = "2025-01-04 17:50:47 +0000";
 layers = (
 {
 layerId = m004;
@@ -31987,23 +31987,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(196,500,l),
 (391,250,l),
-(90,0,l),
-(29,50,l),
+(196,500,l),
+(115,450,l),
 (221,250,l),
-(115,450,l)
+(29,50,l),
+(90,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(426,500,l),
 (621,250,l),
-(320,0,l),
-(259,50,l),
+(426,500,l),
+(345,450,l),
 (451,250,l),
-(345,450,l)
+(259,50,l),
+(320,0,l)
 );
 }
 );
@@ -32015,23 +32015,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(141,430,l),
 (262,250,l),
-(65,69,l),
-(39,97,l),
+(141,430,l),
+(104,401,l),
 (195,250,l),
-(104,401,l)
+(39,97,l),
+(65,69,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(307,430,l),
 (427,250,l),
-(231,69,l),
-(205,97,l),
+(307,430,l),
+(270,401,l),
 (359,250,l),
-(270,401,l)
+(205,97,l),
+(231,69,l)
 );
 }
 );
@@ -32103,7 +32103,7 @@ R = quotes;
 glyphname = guilsinglright;
 kernLeft = KO_guillemotright;
 kernRight = KO_guillemotright;
-lastChange = "2024-12-31 14:56:33 +0000";
+lastChange = "2025-01-04 17:50:39 +0000";
 layers = (
 {
 layerId = m004;
@@ -32111,12 +32111,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(196,500,l),
 (391,250,l),
-(90,0,l),
-(29,50,l),
+(196,500,l),
+(115,450,l),
 (221,250,l),
-(115,450,l)
+(29,50,l),
+(90,0,l)
 );
 }
 );
@@ -32128,12 +32128,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(141,430,l),
 (261,250,l),
-(65,70,l),
-(40,99,l),
+(141,430,l),
+(104,401,l),
 (193,250,l),
-(104,401,l)
+(40,99,l),
+(65,70,l)
 );
 }
 );
@@ -63538,5 +63538,5 @@ KernOnRegenerateGroups = 1;
 KernOnVersion = "1.33";
 };
 versionMajor = 2;
-versionMinor = 201;
+versionMinor = 202;
 }
