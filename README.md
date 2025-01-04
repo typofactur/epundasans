@@ -14,7 +14,7 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftypofactur%2Fepundasans%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftypofactur%2Fepundasans%2Fgh-pages%2Fbadges%2FUniversal.json
 
-Epunda Sans is a simple, space-saving font with a friendly appearance and good readability. It's characteristic features are the slanted incisions, a high x-height, round and open letter shapes and large interior spaces.
+Epunda Sans is a simple, space-saving font with a friendly appearance and good legibility. It's characteristic features are the slanted incisions, a high x-height, round and open letter shapes and large interior spaces.
 
 Epunda Sans was originally designed by Simon Atzbach in 2007, based on the completely symmetric Epunda. In 2022 it was redesigned as a variable font.
 
