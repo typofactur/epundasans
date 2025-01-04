@@ -64,6 +64,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 - path direction guillemot right
 - vendor identification
 - no ligatures
+- contour order guillemotright
 
 
 ## License
