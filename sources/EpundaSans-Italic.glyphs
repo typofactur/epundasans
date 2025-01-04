@@ -63496,6 +63496,19 @@ type = "italic angle";
 );
 properties = (
 {
+key = designers;
+values = (
+{
+language = dflt;
+value = "Simon Atzbach";
+}
+);
+},
+{
+key = designerURL;
+value = "https://typofactur.de";
+},
+{
 key = licenses;
 values = (
 {
@@ -63507,6 +63520,23 @@ value = "SIL Open Font License, Version 1.1. ";
 {
 key = licenseURL;
 value = "https://openfontlicense.org";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = typofactur;
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://typofactur.de";
+},
+{
+key = vendorID;
+value = TYFA;
 }
 );
 unitsPerEm = 1000;

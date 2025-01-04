@@ -2,12 +2,8 @@
 .appVersion = "3337";
 .formatVersion = 3;
 DisplayStrings = (
-e,
-"˛",
-"̨",
-"UŲ",
-"UŲ",
-"AĄ"
+"»",
+"›"
 );
 axes = (
 {
@@ -32533,7 +32529,7 @@ R = quotes;
 glyphname = guillemotright;
 kernLeft = KO_guillemotright;
 kernRight = KO_guillemotright;
-lastChange = "2024-12-31 17:20:32 +0000";
+lastChange = "2025-01-04 17:49:47 +0000";
 layers = (
 {
 hints = (
@@ -32603,23 +32599,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(391,250,l),
-(143,500,l),
-(72,450,l),
-(221,250,l),
-(72,50,l),
-(143,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
 (621,250,l),
 (373,500,l),
 (302,450,l),
 (451,250,l),
 (302,50,l),
 (373,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(391,250,l),
+(143,500,l),
+(72,450,l),
+(221,250,l),
+(72,50,l),
+(143,0,l)
 );
 }
 );
@@ -32725,7 +32721,7 @@ R = quotes;
 glyphname = guilsinglright;
 kernLeft = KO_guillemotright;
 kernRight = KO_guillemotright;
-lastChange = "2024-12-31 17:20:32 +0000";
+lastChange = "2025-01-04 17:49:58 +0000";
 layers = (
 {
 hints = (
@@ -64120,6 +64116,19 @@ type = "italic angle";
 );
 properties = (
 {
+key = designers;
+values = (
+{
+language = dflt;
+value = "Simon Atzbach";
+}
+);
+},
+{
+key = designerURL;
+value = "https://typofactur.de";
+},
+{
 key = licenses;
 values = (
 {
@@ -64131,6 +64140,23 @@ value = "SIL Open Font License, Version 1.1. ";
 {
 key = licenseURL;
 value = "https://openfontlicense.org";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = typofactur;
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://typofactur.de";
+},
+{
+key = vendorID;
+value = TYFA;
 }
 );
 unitsPerEm = 1000;
