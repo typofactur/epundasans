@@ -55,6 +55,10 @@ The proof files and QA tests are also available automatically via GitHub Actions
 **31 December 2024. Version 2.200**
 - kerning with kern on
 
+**03 January 2025. Version 2.201**
+- a and e without alternative
+- a.salt and e.salt
+
 
 ## License
 
