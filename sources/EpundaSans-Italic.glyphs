@@ -74,21 +74,12 @@ tag = aalt;
 },
 {
 automatic = 1;
-code = "lookup ccmp_Other_1 {
+code = "lookup ccmp_DFLT_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
 	lookupflag UseMarkFilteringSet @CombiningTopAccents;
 	sub i' @CombiningTopAccents by idotless;
 	sub j' @CombiningTopAccents by jdotless;
-} ccmp_Other_1;
-
-lookup ccmp_latn_1 {
-	lookupflag 0;
-	sub fi by f i;
-	sub fl by f l;
-} ccmp_latn_1;
-
-script latn;
-lookup ccmp_latn_1;
+} ccmp_DFLT_1;
 ";
 tag = ccmp;
 },
@@ -369,14 +360,6 @@ sub eight.tosf by eight.lf;
 sub nine.tosf by nine.lf;
 ";
 tag = case;
-},
-{
-automatic = 1;
-code = "lookupflag IgnoreMarks;
-sub f i by fi;
-sub f l by fl;
-";
-tag = liga;
 },
 {
 automatic = 1;
@@ -21008,79 +20991,6 @@ width = 550;
 }
 );
 unicode = 479;
-},
-{
-glyphname = fi;
-kernLeft = KO_f;
-kernRight = KO_i;
-layers = (
-{
-layerId = m003;
-shapes = (
-{
-ref = f;
-},
-{
-pos = (319,0);
-ref = i;
-}
-);
-width = 529;
-},
-{
-layerId = m004;
-shapes = (
-{
-ref = f;
-},
-{
-pos = (347,0);
-ref = i;
-}
-);
-width = 597;
-}
-);
-metricLeft = f;
-metricRight = i;
-unicode = 64257;
-},
-{
-glyphname = fl;
-kernLeft = KO_f;
-kernRight = KO_l;
-lastChange = "2022-11-22 23:25:56 +0000";
-layers = (
-{
-layerId = m003;
-shapes = (
-{
-ref = f;
-},
-{
-pos = (317,0);
-ref = l;
-}
-);
-width = 548;
-},
-{
-layerId = m004;
-shapes = (
-{
-ref = f;
-},
-{
-pos = (350,0);
-ref = l;
-}
-);
-width = 626;
-}
-);
-metricLeft = f;
-metricRight = l;
-unicode = 64258;
 },
 {
 glyphname = ordfeminine;
@@ -49819,8 +49729,6 @@ Y = -70;
 asterisk = -96;
 backslash = -85;
 f = -34;
-fi = -34;
-fl = -34;
 guillemotleft = -63;
 guilsinglleft = -63;
 m = -19;
@@ -50242,17 +50150,6 @@ four.osf = -55;
 iacute = -6;
 ordmasculine = -21;
 };
-fi = {
-ezh = -49;
-florin = -123;
-idieresis = 6;
-jcircumflex = 7;
-parenleft = 6;
-parenright = -6;
-s = -11;
-saltillo = -38;
-tbar = 26;
-};
 five = {
 asciitilde = -90;
 equal = -67;
@@ -50294,10 +50191,6 @@ comma = -116;
 fraction = 20;
 period = -105;
 slash = -57;
-};
-fl = {
-egrave = 0;
-primemod = -56;
 };
 florin = {
 a = -108;
@@ -50408,8 +50301,6 @@ d = -20;
 e = -17;
 e.salt = -17;
 f = -23;
-fi = -23;
-fl = -23;
 foursuperior = -72;
 g = -20;
 guillemotleft = -28;
@@ -50968,8 +50859,6 @@ florin = -134;
 ohungarumlaut = {
 comma = -22;
 f = -16;
-fi = -16;
-fl = -16;
 hyphen = 29;
 j = 0;
 period = -13;
@@ -61194,8 +61083,6 @@ Y = -106;
 asterisk = -122;
 backslash = -123;
 f = -63;
-fi = -63;
-fl = -63;
 guillemotleft = -107;
 guilsinglleft = -107;
 m = -49;
@@ -61617,17 +61504,6 @@ four.osf = -41;
 iacute = -3;
 ordmasculine = -47;
 };
-fi = {
-ezh = -30;
-florin = -98;
-idieresis = 10;
-jcircumflex = 20;
-parenleft = 17;
-parenright = -24;
-s = 4;
-saltillo = -29;
-tbar = 26;
-};
 five = {
 asciitilde = -58;
 equal = -36;
@@ -61669,10 +61545,6 @@ comma = -137;
 fraction = -82;
 period = -125;
 slash = -122;
-};
-fl = {
-egrave = -10;
-primemod = -51;
 };
 florin = {
 a = -109;
@@ -61783,8 +61655,6 @@ d = -3;
 e = -8;
 e.salt = -8;
 f = -14;
-fi = -14;
-fl = -14;
 foursuperior = -91;
 g = -5;
 guillemotleft = -60;
@@ -62343,8 +62213,6 @@ florin = -115;
 ohungarumlaut = {
 comma = -26;
 f = -10;
-fi = -10;
-fl = -10;
 hyphen = 10;
 j = 13;
 period = -26;

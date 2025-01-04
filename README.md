@@ -63,6 +63,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 - ogonek, eogonek
 - path direction guillemot right
 - vendor identification
+- no ligatures
 
 
 ## License
