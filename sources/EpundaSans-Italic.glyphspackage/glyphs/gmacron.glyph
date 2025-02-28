@@ -1,0 +1,33 @@
+{
+glyphname = gmacron;
+kernLeft = KO_a;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = g;
+},
+{
+pos = (3,0);
+ref = macroncomb;
+}
+);
+width = 516;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = g;
+},
+{
+pos = (16,0);
+ref = macroncomb;
+}
+);
+width = 526;
+}
+);
+unicode = 7713;
+}

@@ -66,6 +66,16 @@ The proof files and QA tests are also available automatically via GitHub Actions
 - no ligatures
 - contour order guillemotright
 
+**28 February 2025. Version 2.203**
+- commaturnedabovecomb
+- ogonekcomb, Aogonek, Eogonek, aogonek, eogonek, uogonek, oogonek
+- a italic
+- periodcentered.loclCAT and periodcentered.loclCAT.case added
+- lcaron kerning
+- dcaroncomb.alt, kerning Lcaron, dcaron, lcaron, tcaron 
+- acutecomb, gravecomb
+- dcroat
+
 
 ## License
 

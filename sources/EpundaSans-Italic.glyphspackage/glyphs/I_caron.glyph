@@ -1,0 +1,33 @@
+{
+glyphname = Icaron;
+kernLeft = KO_H;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-62,137);
+ref = caroncomb;
+}
+);
+width = 227;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-35,157);
+ref = caroncomb;
+}
+);
+width = 272;
+}
+);
+unicode = 463;
+}

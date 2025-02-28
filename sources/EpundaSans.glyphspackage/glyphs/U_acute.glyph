@@ -1,0 +1,34 @@
+{
+glyphname = Uacute;
+kernLeft = KO_U;
+kernRight = KO_U;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (189,137);
+ref = acutecomb;
+}
+);
+width = 618;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (194,157);
+ref = acutecomb;
+}
+);
+width = 618;
+}
+);
+unicode = 218;
+}

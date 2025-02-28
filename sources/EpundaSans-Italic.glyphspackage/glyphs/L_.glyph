@@ -1,0 +1,96 @@
+{
+glyphname = L;
+kernLeft = KO_H;
+kernRight = KO_L;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (171,0);
+},
+{
+name = center;
+pos = (242,334);
+},
+{
+name = top;
+pos = (306,637);
+},
+{
+name = topright;
+pos = (454,667);
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(234,667,l),
+(171,667,l),
+(29,0,l),
+(92,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(379,0,l),
+(392,60,l),
+(42,60,l),
+(29,0,l)
+);
+}
+);
+width = 432;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (185,0);
+},
+{
+name = center;
+pos = (256,334);
+},
+{
+name = top;
+pos = (325,657);
+},
+{
+name = topright;
+pos = (378,667);
+}
+);
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(317,667,l),
+(134,667,l),
+(-8,0,l),
+(175,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(422,0,l),
+(447,120,l),
+(17,120,l),
+(-8,0,l)
+);
+}
+);
+width = 475;
+}
+);
+metricLeft = "=H";
+unicode = 76;
+userData = {
+KernOnName = L;
+};
+}

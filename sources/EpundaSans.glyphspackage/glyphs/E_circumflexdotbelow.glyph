@@ -1,0 +1,42 @@
+{
+glyphname = Ecircumflexdotbelow;
+kernLeft = KO_H;
+kernRight = KO_E;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (167,0);
+ref = dotbelowcomb;
+},
+{
+pos = (67,137);
+ref = circumflexcomb;
+}
+);
+width = 503;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (150,0);
+ref = dotbelowcomb;
+},
+{
+pos = (70,157);
+ref = circumflexcomb;
+}
+);
+width = 528;
+}
+);
+unicode = 7878;
+}

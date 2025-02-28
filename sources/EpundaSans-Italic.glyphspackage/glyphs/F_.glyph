@@ -1,0 +1,75 @@
+{
+glyphname = F;
+kernLeft = KO_H;
+kernRight = KO_F;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (278,0);
+},
+{
+name = top;
+pos = (420,667);
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(29,0,l),
+(92,0,l),
+(156,300,l),
+(413,300,l),
+(436,360,l),
+(169,360,l),
+(221,607,l),
+(538,607,l),
+(551,667,l),
+(171,667,l)
+);
+}
+);
+width = 483;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = top;
+pos = (442,667);
+}
+);
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-8,0,l),
+(175,0,l),
+(228,250,l),
+(435,250,l),
+(485,390,l),
+(258,390,l),
+(287,527,l),
+(564,527,l),
+(594,667,l),
+(134,667,l)
+);
+}
+);
+width = 516;
+}
+);
+metricLeft = "=H";
+metricRight = "=H/4";
+unicode = 70;
+userData = {
+KernOnName = F;
+};
+}

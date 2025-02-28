@@ -1,0 +1,43 @@
+{
+export = 0;
+glyphname = Abreveacute;
+kernLeft = KO_A;
+kernRight = KO_A;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (67,137);
+ref = brevecomb;
+},
+{
+pos = (149,337);
+ref = acutecomb;
+}
+);
+width = 538;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (88,157);
+ref = brevecomb;
+},
+{
+pos = (175,357);
+ref = acutecomb;
+}
+);
+width = 580;
+}
+);
+unicode = 7854;
+}

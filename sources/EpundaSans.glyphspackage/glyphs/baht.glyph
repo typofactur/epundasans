@@ -1,0 +1,128 @@
+{
+export = 0;
+glyphname = baht;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = B;
+},
+{
+closed = 1;
+nodes = (
+(238,-75,l),
+(298,-75,l),
+(298,742,l),
+(238,742,l)
+);
+}
+);
+width = 543;
+},
+{
+associatedMasterId = m01;
+attr = {
+axisRules = (
+{
+min = 501;
+}
+);
+};
+layerId = "50DAE5E0-5E98-4714-A9A4-695E1134BB7B";
+name = "26. Okt. 22, 18:17";
+shapes = (
+{
+ref = B;
+},
+{
+closed = 1;
+nodes = (
+(298,639,l),
+(298,742,l),
+(238,742,l),
+(238,639,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(238,31,l),
+(238,-75,l),
+(298,-75,l),
+(298,31,l)
+);
+}
+);
+width = 543;
+},
+{
+associatedMasterId = m002;
+attr = {
+axisRules = (
+{
+}
+);
+};
+layerId = "71FDE213-F73B-43C1-9DE5-FC026CB37AD5";
+name = Black;
+shapes = (
+{
+ref = B;
+},
+{
+closed = 1;
+nodes = (
+(227,-75,l),
+(347,-75,l),
+(347,742,l),
+(227,742,l)
+);
+}
+);
+width = 575;
+},
+{
+attr = {
+axisRules = (
+{
+min = 501;
+}
+);
+};
+layerId = m002;
+name = Black;
+shapes = (
+{
+ref = B;
+},
+{
+closed = 1;
+nodes = (
+(347,591,l),
+(347,742,l),
+(227,742,l),
+(227,591,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(227,73,l),
+(227,-75,l),
+(347,-75,l),
+(347,73,l)
+);
+}
+);
+width = 575;
+}
+);
+unicode = 3647;
+userData = {
+KernOnSpecialSpacing = {
+L = symbols;
+R = symbols;
+};
+};
+}

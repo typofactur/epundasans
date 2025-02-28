@@ -1,0 +1,50 @@
+{
+glyphname = periodcentered.loclCAT.case;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (200,21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (276,21);
+target = up;
+type = BottomGhost;
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (-20,0);
+ref = periodcentered;
+}
+);
+width = 210;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (-125,0);
+ref = periodcentered;
+}
+);
+width = 250;
+}
+);
+metricLeft = "=period";
+metricRight = "=period";
+note = periodcentered;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

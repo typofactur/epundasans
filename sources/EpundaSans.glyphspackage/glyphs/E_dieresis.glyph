@@ -1,0 +1,34 @@
+{
+glyphname = Edieresis;
+kernLeft = KO_H;
+kernRight = KO_E;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (92,137);
+ref = dieresiscomb;
+}
+);
+width = 503;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (45,157);
+ref = dieresiscomb;
+}
+);
+width = 528;
+}
+);
+unicode = 203;
+}

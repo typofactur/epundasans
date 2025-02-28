@@ -1,0 +1,43 @@
+{
+glyphname = fraction;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-217,-25,l),
+(-176,-55,l),
+(367,693,l),
+(326,722,l)
+);
+}
+);
+width = 150;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-182,-14,l),
+(-110,-67,l),
+(433,681,l),
+(361,733,l)
+);
+}
+);
+width = 250;
+}
+);
+unicode = 8260;
+userData = {
+KernOnName = fraction;
+KernOnSpecialSpacing = {
+L = fraction;
+R = fraction;
+};
+};
+}

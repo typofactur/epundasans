@@ -1,0 +1,57 @@
+{
+glyphname = dollar;
+kernRight = KO_dollar;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = S;
+},
+{
+closed = 1;
+nodes = (
+(183,-75,l),
+(243,-75,l),
+(243,742,l),
+(183,742,l)
+);
+}
+);
+width = 488;
+},
+{
+attr = {
+axisRules = (
+{
+}
+);
+};
+layerId = m002;
+name = Black;
+shapes = (
+{
+ref = S;
+},
+{
+closed = 1;
+nodes = (
+(225,-75,l),
+(285,-75,l),
+(285,742,l),
+(225,742,l)
+);
+}
+);
+width = 532;
+}
+);
+unicode = 36;
+userData = {
+KernOnName = dollar;
+KernOnSpecialSpacing = {
+L = symbols;
+R = symbols;
+};
+};
+}

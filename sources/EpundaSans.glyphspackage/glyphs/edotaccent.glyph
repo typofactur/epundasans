@@ -1,0 +1,34 @@
+{
+glyphname = edotaccent;
+kernLeft = KO_e;
+kernRight = KO_e;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e;
+},
+{
+pos = (142,0);
+ref = dotaccentcomb;
+}
+);
+width = 469;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = e;
+},
+{
+pos = (135,0);
+ref = dotaccentcomb;
+}
+);
+width = 485;
+}
+);
+unicode = 279;
+}

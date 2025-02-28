@@ -1,0 +1,33 @@
+{
+glyphname = dcroat;
+kernLeft = KO_a;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = d;
+},
+{
+pos = (269,350);
+ref = strokeshortcomb;
+}
+);
+width = 515;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = d;
+},
+{
+pos = (265,350);
+ref = strokeshortcomb;
+}
+);
+width = 524;
+}
+);
+unicode = 273;
+}

@@ -1,0 +1,37 @@
+{
+glyphname = odieresis;
+kernLeft = KO_o;
+kernRight = KO_oacute;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = o;
+},
+{
+pos = (70,0);
+ref = dieresiscomb;
+}
+);
+width = 500;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = o;
+},
+{
+pos = (35,0);
+ref = dieresiscomb;
+}
+);
+width = 520;
+}
+);
+unicode = 246;
+userData = {
+KernOnName = odieresis;
+};
+}

@@ -1,0 +1,63 @@
+{
+glyphname = period;
+kernLeft = KO_period;
+kernRight = KO_period;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(130,-8,o),
+(150,12,o),
+(150,37,cs),
+(150,62,o),
+(130,82,o),
+(105,82,cs),
+(80,82,o),
+(60,62,o),
+(60,37,cs),
+(60,12,o),
+(80,-8,o),
+(105,-8,cs)
+);
+}
+);
+width = 210;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(180,-8,o),
+(225,36,o),
+(225,92,cs),
+(225,147,o),
+(180,192,o),
+(125,192,cs),
+(69,192,o),
+(25,147,o),
+(25,92,cs),
+(25,36,o),
+(69,-8,o),
+(125,-8,cs)
+);
+}
+);
+width = 250;
+}
+);
+metricLeft = "=i";
+metricRight = "=|";
+unicode = 46;
+userData = {
+KernOnName = period;
+KernOnSpecialSpacing = {
+L = period;
+R = period;
+};
+};
+}

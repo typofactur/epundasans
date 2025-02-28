@@ -1,0 +1,34 @@
+{
+glyphname = Macute;
+kernLeft = KO_M;
+kernRight = KO_M;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = M;
+},
+{
+pos = (274,167);
+ref = acutecomb;
+}
+);
+width = 788;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = M;
+},
+{
+pos = (285,167);
+ref = acutecomb;
+}
+);
+width = 800;
+}
+);
+unicode = 7742;
+}

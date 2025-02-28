@@ -1,0 +1,33 @@
+{
+glyphname = Eth;
+kernRight = KO_O;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = D;
+},
+{
+pos = (-19,100);
+ref = strokeshortcomb;
+}
+);
+width = 612;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = D;
+},
+{
+pos = (-30,100);
+ref = strokeshortcomb;
+}
+);
+width = 625;
+}
+);
+unicode = 208;
+}

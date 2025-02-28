@@ -1,0 +1,33 @@
+{
+glyphname = ncommaaccent.loclMAH;
+kernLeft = KO_n;
+kernRight = KO_n;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = n;
+},
+{
+pos = (148,0);
+ref = commaaccentcomb;
+}
+);
+width = 515;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = n;
+},
+{
+pos = (120,0);
+ref = commaaccentcomb;
+}
+);
+width = 515;
+}
+);
+}

@@ -1,0 +1,34 @@
+{
+glyphname = periodcentered.loclCAT;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+pos = (-20,0);
+ref = periodcentered;
+}
+);
+width = 210;
+},
+{
+layerId = m004;
+shapes = (
+{
+pos = (-125,0);
+ref = periodcentered;
+}
+);
+width = 250;
+}
+);
+metricLeft = "=period";
+metricRight = "=period";
+note = periodcentered;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

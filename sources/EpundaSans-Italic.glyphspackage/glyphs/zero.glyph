@@ -1,0 +1,31 @@
+{
+glyphname = zero;
+kernLeft = KO_zero;
+kernRight = KO_zero;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = zero.osf;
+}
+);
+width = 557;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = zero.osf;
+}
+);
+width = 577;
+}
+);
+metricLeft = zero.osf;
+metricRight = zero.osf;
+unicode = 48;
+userData = {
+KernOnName = zero;
+};
+}

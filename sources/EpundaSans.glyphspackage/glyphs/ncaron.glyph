@@ -1,0 +1,34 @@
+{
+glyphname = ncaron;
+kernLeft = KO_n;
+kernRight = KO_aacute;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = n;
+},
+{
+pos = (53,0);
+ref = caroncomb;
+}
+);
+width = 515;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = n;
+},
+{
+pos = (53,0);
+ref = caroncomb;
+}
+);
+width = 515;
+}
+);
+unicode = 328;
+}

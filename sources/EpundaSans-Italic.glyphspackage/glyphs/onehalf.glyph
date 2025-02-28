@@ -1,0 +1,48 @@
+{
+glyphname = onehalf;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (278,0);
+ref = fraction;
+},
+{
+pos = (509,0);
+ref = two.dnom;
+}
+);
+width = 802;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (337,0);
+ref = fraction;
+},
+{
+pos = (517,0);
+ref = two.dnom;
+}
+);
+width = 846;
+}
+);
+metricLeft = one.numr;
+metricRight = one.numr;
+unicode = 189;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

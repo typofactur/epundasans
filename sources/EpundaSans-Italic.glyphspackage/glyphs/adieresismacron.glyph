@@ -1,0 +1,43 @@
+{
+export = 0;
+glyphname = adieresismacron;
+kernLeft = KO_a;
+kernRight = KO_adieresis;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (70,0);
+ref = dieresiscomb;
+},
+{
+pos = (47,208);
+ref = macroncomb;
+}
+);
+width = 556;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (50,0);
+ref = dieresiscomb;
+},
+{
+pos = (75,220);
+ref = macroncomb;
+}
+);
+width = 550;
+}
+);
+unicode = 479;
+}

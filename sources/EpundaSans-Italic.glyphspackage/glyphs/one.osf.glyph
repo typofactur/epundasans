@@ -1,0 +1,54 @@
+{
+glyphname = one.osf;
+kernLeft = KO_one;
+kernRight = KO_one.osf;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(15,0,l),
+(359,0,l),
+(372,60,l),
+(230,60,l),
+(344,600,l),
+(296,600,l),
+(102,517,l),
+(111,471,l),
+(268,524,l),
+(170,60,l),
+(28,60,l)
+);
+}
+);
+width = 427;
+},
+{
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-5,0,l),
+(499,0,l),
+(523,115,l),
+(381,115,l),
+(484,600,l),
+(316,600,l),
+(82,517,l),
+(78,411,l),
+(275,464,l),
+(201,115,l),
+(19,115,l)
+);
+}
+);
+width = 552;
+}
+);
+userData = {
+KernOnName = one.osf;
+};
+}

@@ -1,0 +1,34 @@
+{
+glyphname = Ecedilla;
+kernLeft = KO_H;
+kernRight = KO_E;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (165,0);
+ref = cedillacomb;
+}
+);
+width = 503;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (163,0);
+ref = cedillacomb;
+}
+);
+width = 528;
+}
+);
+unicode = 552;
+}

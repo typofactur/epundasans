@@ -1,0 +1,89 @@
+{
+glyphname = comma;
+kernLeft = KO_comma;
+kernRight = KO_comma;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,-8,o),
+(109,12,o),
+(114,37,cs),
+(120,62,o),
+(104,82,o),
+(79,82,cs),
+(54,82,o),
+(30,62,o),
+(24,37,cs),
+(19,12,o),
+(35,-8,o),
+(60,-8,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(20,-133,l),
+(55,-108,o),
+(161,0,o),
+(110,67,c),
+(60,-8,l),
+(53,-38,o),
+(19,-81,o),
+(-16,-106,c)
+);
+}
+);
+width = 233;
+},
+{
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(125,-8,o),
+(180,37,o),
+(191,92,cs),
+(203,147,o),
+(168,192,o),
+(113,192,cs),
+(58,192,o),
+(3,147,o),
+(-9,92,c),
+(-20,37,o),
+(15,-8,o),
+(70,-8,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(37,-213,l),
+(149,-131,o),
+(271,72,o),
+(173,167,c),
+(70,-8,l),
+(58,-63,o),
+(11,-113,o),
+(-31,-146,c)
+);
+}
+);
+width = 275;
+}
+);
+metricLeft = "=i";
+metricRight = "=|";
+unicode = 44;
+userData = {
+KernOnName = comma;
+KernOnSpecialSpacing = {
+L = period;
+R = period;
+};
+};
+}

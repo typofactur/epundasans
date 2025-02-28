@@ -1,0 +1,55 @@
+{
+glyphname = cent;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = c;
+},
+{
+closed = 1;
+nodes = (
+(220,-75,l),
+(275,-75,l),
+(275,575,l),
+(220,575,l)
+);
+}
+);
+width = 433;
+},
+{
+attr = {
+axisRules = (
+{
+}
+);
+};
+layerId = m002;
+name = Black;
+shapes = (
+{
+ref = c;
+},
+{
+closed = 1;
+nodes = (
+(232,-75,l),
+(287,-75,l),
+(287,575,l),
+(232,575,l)
+);
+}
+);
+width = 463;
+}
+);
+unicode = 162;
+userData = {
+KernOnSpecialSpacing = {
+L = symbols;
+R = symbols;
+};
+};
+}
