@@ -75,6 +75,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 - dcaroncomb.alt, kerning Lcaron, dcaron, lcaron, tcaron 
 - acutecomb, gravecomb
 - dcroat
+- eth italic
 
 
 ## License
