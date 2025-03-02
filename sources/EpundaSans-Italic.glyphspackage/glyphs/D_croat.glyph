@@ -6,19 +6,19 @@ layers = (
 layerId = m003;
 shapes = (
 {
-ref = Eth.001;
+ref = Eth;
 }
 );
-width = 613;
+width = 612;
 },
 {
 layerId = m004;
 shapes = (
 {
-ref = Eth.001;
+ref = Eth;
 }
 );
-width = 626;
+width = 625;
 }
 );
 unicode = 272;

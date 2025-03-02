@@ -77,6 +77,9 @@ The proof files and QA tests are also available automatically via GitHub Actions
 - dcroat
 - eth italic
 
+**02 March 2025. Version 2.204**
+- Dcroat = Eth
+
 
 ## License
 

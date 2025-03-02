@@ -1,5 +1,5 @@
 {
-.appVersion = "3337";
+.appVersion = "3343";
 .formatVersion = 3;
 axes = (
 {
@@ -26,7 +26,7 @@ name = "Use Extension Kerning";
 value = 1;
 }
 );
-date = "2025-02-28 19:46:14 +0000";
+date = "2025-03-02 18:03:15 +0000";
 familyName = "Epunda Sans";
 featurePrefixes = (
 {
@@ -23708,5 +23708,5 @@ KernOnRegenerateGroups = 1;
 KernOnVersion = "1.33";
 };
 versionMajor = 2;
-versionMinor = 203;
+versionMinor = 204;
 }
