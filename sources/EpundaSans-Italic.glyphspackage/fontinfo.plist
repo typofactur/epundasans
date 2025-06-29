@@ -26,7 +26,7 @@ name = "Use Extension Kerning";
 value = 1;
 }
 );
-date = "2025-03-02 18:04:59 +0000";
+date = "2025-06-29 16:52:15 +0000";
 familyName = "Epunda Sans";
 featurePrefixes = (
 {
@@ -23813,5 +23813,5 @@ KernOnRegenerateGroups = 1;
 KernOnVersion = "1.33";
 };
 versionMajor = 2;
-versionMinor = 204;
+versionMinor = 205;
 }

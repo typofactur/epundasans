@@ -80,6 +80,10 @@ The proof files and QA tests are also available automatically via GitHub Actions
 **02 March 2025. Version 2.204**
 - Dcroat = Eth
 
+**29 June 2025. Version 2.205**
+- lozenge added
+- .notdef added
+
 
 ## License
 
