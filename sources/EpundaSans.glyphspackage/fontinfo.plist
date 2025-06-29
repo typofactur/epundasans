@@ -1,5 +1,5 @@
 {
-.appVersion = "3343";
+.appVersion = "3410";
 .formatVersion = 3;
 axes = (
 {
@@ -8,10 +8,6 @@ tag = wght;
 }
 );
 customParameters = (
-{
-name = "Name Table Entry";
-value = "13; This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
-},
 {
 name = fsType;
 value = (
@@ -419,11 +415,11 @@ value = e;
 },
 {
 name = typoAscender;
-value = 1015;
+value = 985;
 },
 {
 name = typoDescender;
-value = -315;
+value = -316;
 },
 {
 name = typoLineGap;
@@ -431,11 +427,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1015;
+value = 985;
 },
 {
 name = hheaDescender;
-value = -315;
+value = -316;
 },
 {
 name = hheaLineGap;
@@ -687,6 +683,38 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = e;
+},
+{
+name = typoAscender;
+value = 985;
+},
+{
+name = typoDescender;
+value = -316;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 985;
+},
+{
+name = hheaDescender;
+value = -316;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1057;
+},
+{
+name = winDescent;
+value = 430;
 }
 );
 iconName = Light;
@@ -23653,7 +23681,7 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "SIL Open Font License, Version 1.1. ";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
 },
