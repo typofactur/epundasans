@@ -1,0 +1,33 @@
+{
+glyphname = acircumflex.ss01;
+kernLeft = KO_a;
+kernRight = KO_a;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = a.salt;
+},
+{
+pos = (22,0);
+ref = circumflexcomb;
+}
+);
+width = 495;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = a.salt;
+},
+{
+pos = (48,0);
+ref = circumflexcomb;
+}
+);
+width = 505;
+}
+);
+}

@@ -1,0 +1,33 @@
+{
+glyphname = abreve.ss01;
+kernLeft = KO_agrave;
+kernRight = KO_aacute;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (45,0);
+ref = brevecomb;
+},
+{
+ref = a.salt;
+}
+);
+width = 512;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (66,0);
+ref = brevecomb;
+},
+{
+ref = a.salt;
+}
+);
+width = 535;
+}
+);
+}

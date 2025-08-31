@@ -1,0 +1,31 @@
+{
+glyphname = etilde.ss02;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = e.salt;
+},
+{
+pos = (15,0);
+ref = tildecomb;
+}
+);
+width = 475;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = e.salt;
+},
+{
+pos = (-1,0);
+ref = tildecomb;
+}
+);
+width = 485;
+}
+);
+}

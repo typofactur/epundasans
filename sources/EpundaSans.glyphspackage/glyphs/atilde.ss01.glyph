@@ -1,0 +1,33 @@
+{
+glyphname = atilde.ss01;
+kernLeft = KO_agrave;
+kernRight = KO_aacute;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (12,0);
+ref = tildecomb;
+}
+);
+width = 512;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (8,0);
+ref = tildecomb;
+}
+);
+width = 535;
+}
+);
+}

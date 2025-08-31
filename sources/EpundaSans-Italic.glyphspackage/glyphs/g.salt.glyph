@@ -4,6 +4,16 @@ kernLeft = KO_g.salt;
 kernRight = KO_g.salt;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (129,-200);
+},
+{
+name = top;
+pos = (273,500);
+}
+);
 layerId = m003;
 shapes = (
 {
@@ -94,6 +104,16 @@ nodes = (
 width = 476;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (129,-200);
+},
+{
+name = top;
+pos = (274,500);
+}
+);
 layerId = m004;
 shapes = (
 {

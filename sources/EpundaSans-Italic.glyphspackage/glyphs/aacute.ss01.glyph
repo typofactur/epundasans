@@ -1,0 +1,33 @@
+{
+glyphname = aacute.ss01;
+kernLeft = KO_a;
+kernRight = KO_a;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = a.salt;
+},
+{
+pos = (107,0);
+ref = acutecomb;
+}
+);
+width = 495;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = a.salt;
+},
+{
+pos = (138,0);
+ref = acutecomb;
+}
+);
+width = 505;
+}
+);
+}

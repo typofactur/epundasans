@@ -1,6 +1,12 @@
 {
 displayStrings = (
-"◊",
-"/.notdef"
+"/e.ss02",
+"/e.salt/e.ss02/eacute.ss02/ecaron.ss02/ecedilla.ss02/ecircumflex.ss02/ecircumflexdotbelow.ss02/edieresis.ss02/edotaccent.ss02/edotbelow.ss02/egrave.ss02/emacron.ss02/eogonek.ss02/etilde.ss02",
+"/e.ss02/eacute.ss02/ecaron.ss02/ecedilla.ss02 e/ecircumflex.ss02/ecircumflexdotbelow.ss02/edieresis.ss02/edotaccent.ss02/edotbelow.ss02/egrave.ss02/emacron.ss02/eogonek.ss02/etilde.ss02",
+"/ae.ss02",
+"/g.ss03",
+"/g.salt/g.ss03/gbreve.ss03/gcaron.ss03/gcircumflex.ss03/gcommaaccent.ss03/gdotaccent.ss03/gmacron.ss03",
+"/gstroke.ss03",
+""
 );
 }

@@ -22,7 +22,7 @@ name = "Use Extension Kerning";
 value = 1;
 }
 );
-date = "2025-06-29 16:52:29 +0000";
+date = "2025-08-31 13:19:45 +0000";
 familyName = "Epunda Sans";
 featurePrefixes = (
 {
@@ -62,6 +62,9 @@ feature onum;
 feature case;
 feature fwid;
 feature salt;
+feature ss01;
+feature ss02;
+feature ss03;
 ";
 tag = aalt;
 },
@@ -401,6 +404,75 @@ sub g by g.salt;
 sub k by k.salt;
 ";
 tag = salt;
+},
+{
+automatic = 1;
+code = "sub a by a.ss01;
+sub aacute by aacute.ss01;
+sub abreve by abreve.ss01;
+sub acaron by acaron.ss01;
+sub acircumflex by acircumflex.ss01;
+sub acircumflexdotbelow by acircumflexdotbelow.ss01;
+sub adieresis by adieresis.ss01;
+sub adieresismacron by adieresismacron.ss01;
+sub adotbelow by adotbelow.ss01;
+sub agrave by agrave.ss01;
+sub amacron by amacron.ss01;
+sub aogonek by aogonek.ss01;
+sub aring by aring.ss01;
+sub atilde by atilde.ss01;
+";
+labels = (
+{
+language = dflt;
+value = "alternative a";
+}
+);
+tag = ss01;
+},
+{
+automatic = 1;
+code = "sub ae by ae.ss02;
+sub e by e.ss02;
+sub eacute by eacute.ss02;
+sub ecaron by ecaron.ss02;
+sub ecedilla by ecedilla.ss02;
+sub ecircumflex by ecircumflex.ss02;
+sub ecircumflexdotbelow by ecircumflexdotbelow.ss02;
+sub edieresis by edieresis.ss02;
+sub edotaccent by edotaccent.ss02;
+sub edotbelow by edotbelow.ss02;
+sub egrave by egrave.ss02;
+sub emacron by emacron.ss02;
+sub eogonek by eogonek.ss02;
+sub etilde by etilde.ss02;
+";
+labels = (
+{
+language = dflt;
+value = "alternative e";
+}
+);
+tag = ss02;
+},
+{
+automatic = 1;
+code = "sub g by g.ss03;
+sub gbreve by gbreve.ss03;
+sub gcaron by gcaron.ss03;
+sub gcircumflex by gcircumflex.ss03;
+sub gcommaaccent by gcommaaccent.ss03;
+sub gdotaccent by gdotaccent.ss03;
+sub gmacron by gmacron.ss03;
+sub gstroke by gstroke.ss03;
+";
+labels = (
+{
+language = dflt;
+value = "alternative g";
+}
+);
+tag = ss03;
 }
 );
 fontMaster = (
@@ -23736,5 +23808,5 @@ KernOnRegenerateGroups = 1;
 KernOnVersion = "1.33";
 };
 versionMajor = 2;
-versionMinor = 205;
+versionMinor = 300;
 }

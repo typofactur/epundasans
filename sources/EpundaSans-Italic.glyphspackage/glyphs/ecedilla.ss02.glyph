@@ -1,0 +1,32 @@
+{
+glyphname = ecedilla.ss02;
+kernLeft = KO_e;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = e.salt;
+},
+{
+pos = (143,0);
+ref = cedillacomb;
+}
+);
+width = 475;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = e.salt;
+},
+{
+pos = (121,0);
+ref = cedillacomb;
+}
+);
+width = 485;
+}
+);
+}

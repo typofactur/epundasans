@@ -1,5 +1,4 @@
 {
-export = 0;
 glyphname = adieresismacron;
 kernLeft = KO_a;
 kernRight = KO_adieresis;

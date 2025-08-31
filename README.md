@@ -84,6 +84,16 @@ The proof files and QA tests are also available automatically via GitHub Actions
 - lozenge added
 - .notdef added
 
+**31 August 2025. Version 2.300**
+- ae corrected
+- style set 01 with alternative a
+- style set 02 with alternative e
+- style set 03 with alternative g
+- gstroke modified
+- dollar and cent modified
+- baht added
+- Adieresismacron and adieresismacron added in Italic
+
 
 ## License
 

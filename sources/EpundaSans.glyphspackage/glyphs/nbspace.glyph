@@ -7,7 +7,7 @@ width = 250;
 },
 {
 layerId = m002;
-width = 200;
+width = 280;
 }
 );
 metricWidth = space;

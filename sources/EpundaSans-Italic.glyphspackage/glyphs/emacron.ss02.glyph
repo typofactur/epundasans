@@ -1,0 +1,33 @@
+{
+glyphname = emacron.ss02;
+kernLeft = KO_e;
+kernRight = KO_e;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = e.salt;
+},
+{
+pos = (3,0);
+ref = macroncomb;
+}
+);
+width = 475;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = e.salt;
+},
+{
+pos = (12,0);
+ref = macroncomb;
+}
+);
+width = 485;
+}
+);
+}

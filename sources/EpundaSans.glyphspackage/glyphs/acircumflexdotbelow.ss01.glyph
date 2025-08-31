@@ -1,0 +1,41 @@
+{
+glyphname = acircumflexdotbelow.ss01;
+kernLeft = KO_agrave;
+kernRight = KO_aacute;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (142,0);
+ref = dotbelowcomb;
+},
+{
+pos = (42,0);
+ref = circumflexcomb;
+}
+);
+width = 512;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (143,0);
+ref = dotbelowcomb;
+},
+{
+pos = (63,0);
+ref = circumflexcomb;
+}
+);
+width = 535;
+}
+);
+}
